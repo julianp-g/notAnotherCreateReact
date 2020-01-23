@@ -1,15 +1,18 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import actions from '../actions/exActions'
 
-export default class App extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            greeting: 'hi there from the state'
-        }
-    }
-    render() {
-        return(
-            <div>{this.state.greeting}</div>
-        )
-    }
+const App = ( { count, changeCount, increment, decrement } ) => {
+    return(
+        <div>
+            <button onClick={increment}>inc</button>
+            <button onClick={decrement}>dec</button>
+            <div>The current count in state: { count }</div>
+        </div>
+    )
 }
+
+const mapStateToProps = ({ count }) => ({ count })
+
+const AppContainer = connect(mapStateToProps, actions)(App)
+export default AppContainer

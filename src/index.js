@@ -1,9 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/app.jsx'
+import { Provider } from 'react-redux'
+import { store } from './store/store'
+import AppContainer from './components/app.jsx'
 import './styles/style.css'
 
 render(
-    < App />,
+    <Provider store={ store } >
+        < AppContainer />
+    </Provider>,
     document.getElementById('root')
 )
