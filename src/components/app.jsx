@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import actions from '../actions/exActions'
 
-const App = ( { count, changeCount, increment, decrement } ) => {
+const App = ( { count, increment, decrement } ) => {
     return(
         <div>
             <button onClick={increment}>inc</button>

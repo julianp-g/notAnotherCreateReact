@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="142px" height="142px" viewBox="0 0 142 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="sent" sketch:type="MSArtboardGroup" transform="translate(-588.000000, -282.000000)" fill="#8DC449">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(424.000000, 78.000000)">
+                <g id="check-circle" transform="translate(164.000000, 204.000000)" sketch:type="MSShapeGroup">
+                    <path d="M71,0 C31.95,0 0,31.95 0,71 C0,110.05 31.95,142 71,142 C110.05,142 142,110.05 142,71 C142,31.95 110.05,0 71,0 L71,0 Z M56.8,106.5 L21.3,71 L31.24,61.06 L56.8,86.62 L110.76,32.66 L120.7,42.6 L56.8,106.5 L56.8,106.5 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

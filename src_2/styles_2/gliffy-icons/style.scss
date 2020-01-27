@@ -1,0 +1,297 @@
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gliffy-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Icon-LineHop-Square:before {
+  content: "\e959";
+}
+.Icon-LineHop-Gap:before {
+  content: "\e95b";
+}
+.Icon-LineHop-None:before {
+  content: "\e95c";
+}
+.gliffy-icon-expand:before {
+  content: "\e95a";
+}
+.gliffy-icon-library-gear:before {
+  content: "\e900";
+}
+.gliffy-icon-toolbar-custom-white:before {
+  content: "\e901";
+}
+.gliffy-icon-properties-tab-custom:before {
+  content: "\e902";
+}
+.gliffy-icon-sidebar-hide-all-white:before {
+  content: "\e903";
+}
+.gliffy-icon-sidebar-show-all-white:before {
+  content: "\e904";
+}
+.gliffy-icon-properties-alignbottom:before {
+  content: "\e905";
+}
+.gliffy-icon-properties-aligncenter:before {
+  content: "\e906";
+}
+.gliffy-icon-properties-alignleft:before {
+  content: "\e907";
+}
+.gliffy-icon-properties-alignmiddle:before {
+  content: "\e908";
+}
+.gliffy-icon-properties-alignright:before {
+  content: "\e909";
+}
+.gliffy-icon-properties-aligntop:before {
+  content: "\e90a";
+}
+.gliffy-icon-properties-distributehorizontal:before {
+  content: "\e90b";
+}
+.gliffy-icon-properties-distributevertical:before {
+  content: "\e90c";
+}
+.gliffy-icon-properties-linecolor:before {
+  content: "\e90d";
+}
+.gliffy-icon-properties-lineweight:before {
+  content: "\e90e";
+}
+.gliffy-icon-properties-linestyle:before {
+  content: "\e90f";
+}
+.gliffy-icon-properties-dropshadow:before {
+  content: "\e910";
+}
+.mce_italic:before {
+  content: "\e911";
+}
+.mce_bold:before {
+  content: "\e912";
+}
+.mce_underline:before {
+  content: "\e913";
+}
+.mce_justifyleft:before {
+  content: "\e914";
+}
+.mce_justifycenter:before {
+  content: "\e915";
+}
+.mce_justifyright:before {
+  content: "\e916";
+}
+.gliffy-icon-properties-text-position-inside:before {
+  content: "\e917";
+}
+.gliffy-icon-properties-text-position-below:before {
+  content: "\e918";
+}
+.gliffy-icon-properties-text-position-above:before {
+  content: "\e919";
+}
+.gliffy-icon-properties-text-position-left:before {
+  content: "\e91a";
+}
+.gliffy-icon-properties-text-position-right:before {
+  content: "\e91b";
+}
+.mce_unlink:before {
+  content: "\e91c";
+}
+.mce_link:before {
+  content: "\e91d";
+}
+.gliffy-icon-properties-vertical-align-top:before {
+  content: "\e91e";
+}
+.gliffy-icon-properties-vertical-align-middle:before {
+  content: "\e91f";
+}
+.gliffy-icon-properties-vertical-align-bottom:before {
+  content: "\e920";
+}
+.gliffy-icon-toolbar-undo:before {
+  content: "\e921";
+}
+.gliffy-icon-toolbar-redo:before {
+  content: "\e922";
+}
+.gliffy-icon-toolbar-group:before {
+  content: "\e923";
+}
+.gliffy-icon-toolbar-ungroup:before {
+  content: "\e924";
+}
+.gliffy-icon-toolbar-send-to-back:before {
+  content: "\e925";
+}
+.gliffy-icon-toolbar-bring-to-front:before {
+  content: "\e926";
+}
+.gliffy-icon-toolbar-link:before {
+  content: "\e927";
+}
+.gliffy-icon-toolbar-popup-notes:before {
+  content: "\e928";
+}
+.gliffy-icon-toolbar-style-copy:before {
+  content: "\e929";
+}
+.gliffy-icon-toolbar-text:before {
+  content: "\e92a";
+}
+.gliffy-icon-toolbar-circle:before {
+  content: "\e92b";
+}
+.gliffy-icon-toolbar-rectangle:before {
+  content: "\e92c";
+}
+.gliffy-icon-toolbar-connector:before {
+  content: "\e92d";
+}
+.gliffy-icon-toolbar-line:before {
+  content: "\e92e";
+}
+.gliffy-icon-toolbar-pointer:before {
+  content: "\e92f";
+}
+.gliffy-icon-toolbar-pan:before {
+  content: "\e930";
+}
+.gliffy-icon-toolbar-zoom-in:before {
+  content: "\e931";
+}
+.gliffy-icon-toolbar-zoom-out:before {
+  content: "\e932";
+}
+.gliffy-icon-toolbar-grid:before {
+  content: "\e933";
+}
+.gliffy-icon-toolbar-snap-to-grid:before {
+  content: "\e934";
+}
+.gliffy-icon-toolbar-dwg-guides:before {
+  content: "\e935";
+}
+.gliffy-icon-toolbar-layers:before {
+  content: "\e936";
+}
+.gliffy-icon-toolbar-themes:before {
+  content: "\e937";
+}
+.icon-search:before {
+  content: "\e938";
+}
+.gliffy-icon-sidebar-grabber:before {
+  content: "\e939";
+}
+.gliffy-icon-sidebar-close:before {
+  content: "\e93a";
+}
+.close:before {
+  content: "\e93b";
+}
+.icon-chevron-right:before {
+  content: "\e93c";
+}
+.icon-chevron-left:before {
+  content: "\e93d";
+}
+.icon-chevron-up:before {
+  content: "\e93e";
+}
+.icon-chevron-down:before {
+  content: "\e93f";
+}
+.caret:before {
+  content: "\e940";
+}
+.right-caret:before {
+  content: "\e941";
+}
+.gliffy-icon-chevron-left-white:before {
+  content: "\e942";
+}
+.gliffy-icon-toolbar-line-white:before {
+  content: "\e943";
+}
+.gliffy-icon-toolbar-text-white:before {
+  content: "\e944";
+}
+.gliffy-icon-toolbar-rectangle-white:before {
+  content: "\e945";
+}
+.gliffy-icon-toolbar-group-white:before {
+  content: "\e946";
+}
+.gliffy-icon-properties-tab-line:before {
+  content: "\e947";
+}
+.gliffy-icon-properties-tab-text:before {
+  content: "\e948";
+}
+.gliffy-icon-properties-tab-shape:before {
+  content: "\e949";
+}
+.mceOpen:before {
+  content: "\e94a";
+}
+.gliffy-icon-properties-lock:before {
+  content: "\e94b";
+}
+.gliffy-icon-properties-unlock:before {
+  content: "\e94c";
+}
+.gliffy-icon-overlay-rotate:before {
+  content: "\e94d";
+}
+.gliffy-icon-properties-rotate:before {
+  content: "\e94e";
+}
+.gliffy-icon-public:before {
+  content: "\e94f";
+}
+.gliffy-icon-private:before {
+  content: "\e950";
+}
+.svgicon-layers-delete:before {
+  content: "\e951";
+}
+.svgicon-layers-add:before {
+  content: "\e952";
+}
+.svgicon-layers-duplicate:before {
+  content: "\e953";
+}
+.svgicon-layers-visible:before {
+  content: "\e954";
+}
+.svgicon-layers-invisible:before {
+  content: "\e955";
+}
+.svgicon-layers-unlocked:before {
+  content: "\e956";
+}
+.svgicon-layers-locked:before {
+  content: "\e957";
+}
+.gliffy-icon-properties-shape-opacity:before {
+  content: "\e958";
+}
+.Icon-LineHop-Round:before {
+  content: "\e95d";
+}

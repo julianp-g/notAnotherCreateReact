@@ -1,0 +1,50 @@
+body{
+
+    margin:0;
+    text-align:center;
+    background-color:transparent;
+    overflow:hidden;
+    overflow-y: hidden;
+    font-family: Arial;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+body p {
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 none;
+    line-height : 0px;
+}
+
+
+body.gliffy-fixed-width p{
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/*---------begin linkColorFixes---------*/
+/* !!!!! - Search codebase for: linkColorFixes if any of this needs to be modified. They likely need to be kept in sync.*/
+
+*[style*=color] a{ /*if we have a parent selector that has a color we want to inherit that color for the link*/
+    color: inherit;
+    text-decoration: underline;
+    pointer-events:none;
+    cursor:default;
+}
+
+/*otherwise we want to fix the color to blue*/
+p a {
+    color: #0000FF;
+    text-decoration: underline;
+    pointer-events:none;
+    cursor:default;
+}
+
+p a span {
+    /*this !important is actually required.
+    We need to override the text-decoration inline property that tinyMCE shoves into the span*/
+    text-decoration: underline !important;
+}
+/*---------end linkColorFixes---------*/
+

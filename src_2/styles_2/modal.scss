@@ -1,0 +1,124 @@
+$border-radius: 4px;
+
+.enhanced-modal {
+    display: none;
+
+    .enhanced-modal-wrapper {
+        display: inline-block;
+        left: 50%;
+        position: absolute;
+        top: 7%;
+        transform: translateX(-50%);
+        z-index: 601000;
+
+        .modal-buttons {
+            width: 100%;
+            height: 35px;
+            display: block;
+
+            .close-button {
+                width: 30px;
+                height: 30px;
+                color: white;
+                float: right;
+                background-image: url('../styles_2/public/_ui/images/icon-close.svg');
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .modal-content {
+            padding: 38px 45px;
+            margin-right: 35px;
+            display: inline-block;
+            background-color: $white;
+            border-radius: 4px;
+            min-height: 100px;
+            min-width: 100px;
+            color: $grey-modal-text;
+            font-family: $font-open-sans;
+            font-size: 16px;
+            line-height: 28px;
+
+            textarea::-moz-placeholder {
+                font-style: italic;
+                font-size: 16px;
+                line-height: 28px;
+            }
+
+            textarea:-ms-input-placeholder {
+                font-style: italic;
+                font-size: 16px;
+                line-height: 28px;
+            }
+
+            textarea::-webkit-input-placeholder {
+                font-style: italic;
+                font-size: 16px;
+                line-height: 28px;
+            }
+
+            label {
+                font-weight: 600;
+                margin: 0 auto 5px;
+                display: block;
+            }
+
+            form {
+                margin: 0;
+                padding: 0;
+            }
+
+            .submit-button {
+                background: linear-gradient($orange-emphasis, #ed793e);
+                border-radius: $border-radius;
+                color: $white;
+                display: block;
+                font-size: 16px;
+                height: 40px;
+                margin: 45px auto 0;
+                text-align: center;
+                text-shadow: none;
+                width: 100%;
+            }
+
+            .standard-width {
+                width: 385px;
+            }
+
+            .title {
+                color: $grey-modal-text;
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .trailing-text {
+                font-size: 13px;
+                margin-top: 28px;
+                text-align: center;
+            }
+
+            .description,
+            .message,
+            .message-failure {
+                margin-top: 30px;
+            }
+
+            .description {
+                color: $medium-grey;
+            }
+        }
+    }
+
+    .enhanced-modal-backdrop {
+        background-color: $transparent-med-light-grey;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 589900;
+    }
+}

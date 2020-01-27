@@ -1,8 +1,9 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const isDevelopment = process.env.NODE_ENV === 'development'
 
 module.exports = {
-    entry: path.join(__dirname, 'src/index.js'),
+    entry: path.join(__dirname, 'src_2/index.js'),
     plugins: [
         new MiniCssExtractPlugin({
             filename: '[name].css',
@@ -21,25 +22,37 @@ module.exports = {
                 }
             },
             {
-                test: /\.css$/,
-                use: [
-                  {
-                    loader: MiniCssExtractPlugin.loader,
-                    options: {
-                      hmr: process.env.NODE_ENV === 'development',
-                    },
-                  },
-                  'css-loader',
-                ],
-              },
+              test: /\.s(a|c)ss$/,
+              exclude: /\.module.(s(a|c)ss)$/,
+              loader: [
+                isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+                'css-loader',
+                {
+                  loader: 'sass-loader',
+                  options: {
+                    sourceMap: isDevelopment
+                  }
+                }
+              ]
+            },
+            // {
+            //   test: /\.svg$/,
+            //   loader: 'svg-inline-loader'
+            // },
+            {
+              test: /\.(woff|ttf|eot|png|svg|jpg|gif)$/,
+              use: [
+                'file-loader',
+              ],
+            },
         ]
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist_2')
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        contentBase: path.join(__dirname, 'dist_2'),
         port: 7070,
     }
 }
