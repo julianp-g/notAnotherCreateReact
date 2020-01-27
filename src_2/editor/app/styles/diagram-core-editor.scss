@@ -1,0 +1,106 @@
+@import 'editor-colors';
+@import 'gen/__gliffy-icon';
+@import 'gen/__gliffy-shape';
+@import 'gen/__gliffy-viewerIcon';
+
+// nixing the import of legacy styling - presumably this isn't neccessary
+
+// @import 'legacy/colorpicker';
+// @import 'legacy/jqModal';
+// @import 'legacy/jquery.contextmenu';
+// @import 'legacy/bootstrap-slider';
+// @import 'legacy/context.standalone';
+// @import 'legacy/elementCountTab';
+// @import 'legacy/gliffy-colorswatchpicker';
+// @import 'legacy/gliffy-contextual-properties';
+// @import 'legacy/gliffy-cursor';
+// @import 'legacy/gliffy-document-browser';
+// @import 'legacy/gliffy-document-properties';
+// @import 'legacy/gliffy-editor-commenting';
+// @import 'legacy/gliffy-editor-no-ui';
+// @import 'legacy/gliffy-feedback-ie';
+// @import 'legacy/gliffy-feedback';
+// @import 'legacy/gliffy-folder-tree';
+// @import 'legacy/gliffy-labs';
+// @import 'legacy/gliffy-layers';
+// @import 'legacy/gliffy-navigator';
+// @import 'legacy/gliffy-network-rack-overlay';
+// @import 'legacy/gliffy-opacity-widget';
+// @import 'legacy/gliffy-overlay';
+// @import 'legacy/gliffy-qc-overlay';
+// @import 'legacy/gliffy-sidebar';
+// @import 'legacy/gliffy-table-overlay';
+// @import 'legacy/gliffy-tips';
+// @import 'legacy/gliffy-update-splash';
+// @import 'legacy/gliffy-svg-icon';
+// @import 'legacy/manageShapeLibrary';
+// @import 'legacy/mindMapTab';
+// @import 'legacy/modifyCustomLibrary';
+// @import 'legacy/networkRackTab';
+// @import 'legacy/print';
+// @import 'legacy/selectedTab';
+// @import 'legacy/selectedTabV2';
+// @import 'legacy/shapeLibrary';
+// @import 'legacy/shapeLibraryCustomPanel';
+// @import 'legacy/shapeLibraryImagePanel';
+// @import 'legacy/shapeLibraryPanel';
+// @import 'legacy/slider';
+// @import 'legacy/style-copy';
+// @import 'legacy/swimlaneTab';
+// @import 'legacy/tablesTab';
+// @import 'legacy/tinyMce-override';
+
+@import 'gliffy-stage';
+@import 'components/draft-publish-menu';
+
+.filemenu-insert:hover, .filemenu-sub-menu > li:hover, .drive-context-sub-menu > li:hover {
+    background-color: #e4eaf2;
+    cursor: pointer;
+}
+
+.gliffy-file-dropdown .filemenu-insert {
+    position: relative;
+    display: list-item;
+}
+
+.right-caret {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #000000;
+    display: inline-block;
+    height: 0;
+    opacity: 0.3;
+    width: 0;
+}
+
+.filemenu-insert b {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.dropdown-menu .gliffy-filemenu-open-from:hover .filemenu-sub-menu, .dropdown-menu .gliffy-filemenu-saveAs-override:hover .filemenu-sub-menu {
+    display: block;
+}
+
+.dropdown .filemenu-sub-menu.dropdown-menu {
+    top: -6px;
+    left: 160px;
+    display: none;
+}
+
+.dropdown .filemenu-sub-menu.dropdown-menu:hover, .dropdown .filemenu-insert:hover .filemenu-sub-menu.dropdown-menu {
+    display: block;
+}
+
+.navbar .filemenu-sub-menu.dropdown-menu:before {
+    display: none;
+}
+
+.navbar .filemenu-sub-menu.dropdown-menu:after {
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}

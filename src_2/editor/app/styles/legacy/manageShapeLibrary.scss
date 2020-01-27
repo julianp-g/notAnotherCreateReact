@@ -1,0 +1,287 @@
+#manageLibrary, #requestLibrary, #requestLibrarySend {
+    width : 800px;
+    margin: -270px 0 0 -400px;
+}
+
+#manageLibrary .gliffy-icon-library-arrow-open,
+#manageLibrary .gliffy-icon-library-arrow-closed,
+#requestLibrary .gliffy-icon-library-arrow-open,
+#requestLibrary .gliffy-icon-library-arrow-closed {
+    display: inline-block;
+    float: left;
+    margin-left: -16px;
+    margin-top: 5px;
+}
+
+#manageLibrary .modal-body,
+#manageLibrary .modal-body .row-fluid,
+#requestLibrary .modal-body,
+#requestLibrary .modal-body .row-fluid,
+#requestLibrarySend .modal-body,
+#requestLibrarySend .modal-body .row-fluid{
+    background: #FFFFFF;
+    padding: 0;
+    overflow: hidden;
+}
+
+#manageLibrary .gliffy-custom-shape-preview,
+#requestLibrary .gliffy-custom-shape-preview {
+    float:left;
+    margin: 5px 12px;
+}
+
+#manageLibrary .gliffy-shape-preview,
+#requestLibrary .gliffy-shape-preview {
+    display: inline-block;
+    margin: 5px;
+}
+
+#manageLibrary hr,
+#requestLibrary hr {
+    margin: 10px 0;
+}
+
+#manageLibrary form,
+#requestLibrary form {
+    margin-bottom: 10px;
+}
+
+#manageLibrary .modal-body h4,
+#requestLibrary .modal-body h4,
+#requestLibrarySend .modal-body h4{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#requestLibrarySend .modal-body p{
+    margin-left:0;
+    margin-right:0;
+}
+
+#manageLibrary .gliffy-add-library-container,
+#requestLibrary .gliffy-add-library-container {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    margin-bottom: 0;
+    padding: 14px 15px 15px;
+    text-align: left;
+}
+
+#manageLibrary .gliffy-add-library-container.gliffy-custom-library-ie9-alert {
+    background-color: #f2dede;
+    border: 1px solid #b94a48;
+    box-shadow: none;
+    color: #b94a48;
+}
+
+#manageLibrary .modal-body form,
+#requestLibrary .modal-body form {
+    margin-top : 10px;
+}
+
+#manageLibrary .modal-body form,
+#requestLibrary .modal-body form,
+#requestLibrarySend .modal-body form,
+#requestLibrarySend p{
+    margin-left : 10px;
+}
+
+#manageLibrary .modal-body h4,
+#requestLibrary .modal-body h4,
+#requestLibrarySend .modal-body h4 {
+    margin-left:20px;
+}
+
+#requestLibrarySend .gliffy-spinner{
+    width: 90px;
+    height: 60px;
+    background: url('../../../images/gif/spinner_white.gif') no-repeat center center;
+}
+
+#manageLibrary .modal-body ul,
+#requestLibrary .modal-body ul {
+    margin-left : 18px;
+    margin-bottom: 0;
+}
+
+#manageLibrary .gliffy-library-list-container,
+#requestLibrary .gliffy-library-list-container,
+#requestLibrarySend .gliffy-library-list-container{
+    position: relative;
+    overflow-y: scroll;
+    height:400px;
+}
+
+#manageLibrary #gliffyLibraryPreview,
+#requestLibrary #gliffyLibraryPreview {
+    height: 390px;
+    margin-left: 17px;
+    overflow-y: scroll;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 380px;
+}
+
+#manageLibrary .gliffy-selected-background,
+#requestLibrary .gliffy-selected-background {
+    background : rgb(228,234,242);
+    position: absolute;
+    left: 0;
+    width: 370px;
+    height: 20px;
+    display: none;
+}
+
+#manageLibrary .checkbox,
+#requestLibrary .checkbox {
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+#manageLibrary .gliffy-panel-sub-group .checkbox,
+#requestLibrary .gliffy-panel-sub-group .checkbox {
+    font-weight: normal;
+}
+
+#manageLibrary .checkbox input {
+    margin-top: -14px;
+}
+#requestLibrary .checkbox input {
+    margin-top: 0px;
+}
+
+#manageLibrary .gliffy-twizzle,
+#requestLibrary .gliffy-twizzle {
+    list-style: none;
+}
+
+#manageLibrary .gliffy-twizzle li,
+#requestLibrary .gliffy-twizzle li {
+    position : relative;
+    line-height: 13px;
+}
+
+#manageLibrary .gliffy-twizzle .icon-chevron-down,
+#manageLibrary .gliffy-twizzle .icon-chevron-right,
+#requestLibrary .gliffy-twizzle .icon-chevron-down,
+#requestLibrary .gliffy-twizzle .icon-chevron-right {
+    margin-left : -20px;
+    position: absolute;
+}
+
+#manageLibrary .gliffy-library-owner,
+#requestLibrary .gliffy-library-owner {
+    font-weight: bold;
+    color: rgb(38,38,38);
+
+}
+
+#manageLibrary .gliffy-custom-shape-information,
+#requestLibrary .gliffy-custom-shape-information {
+    padding:10px;
+    color: rgb(148,148,148);
+}
+
+#manageLibrary .gliffy-custom-shape-information .gliffy-library-editable,
+#requestLibrary .gliffy-custom-shape-information .gliffy-library-editable {
+    float: right;
+    margin-right: 10px;
+    color: rgb(148,148,148);
+}
+
+#manageLibrary .gliffy-icon-library-star-orange,
+#manageLibrary .gliffy-icon-library-star-grey,
+#requestLibrary .gliffy-icon-library-star-orange,
+#requestLibrary .gliffy-icon-library-star-grey{
+    display: inline-block;
+    vertical-align:  middle;
+}
+
+#manageLibrary .gliffy-shape-preview-container,
+#requestLibrary .gliffy-shape-preview-container {
+    min-height: 320px;
+}
+
+#manageLibrary .gliffy-shape-preview-container h4,
+#requestLibrary .gliffy-shape-preview-container h4 {
+    margin-top:10px;
+}
+
+div.gliffy-panel-sub-group {
+    padding-left:20px;
+    display: none;
+}
+
+.gliffy-libraries-left {
+    float:left;
+    width:32%;
+}
+
+.gliffy-libraries-right {
+    float:right;
+}
+
+.gliffy-sidebar-btns .gliffy-more-shapes-panel .moreShapes {
+    width: 131px;
+    text-align: center;
+}
+
+.gliffy-icon-sidebar-show-all-white,
+.gliffy-icon-sidebar-hide-all-white {
+    font-size: 40px;
+}
+
+#gliffy-symbol-library {
+    border-top: 1px solid $shape-library-border;
+    margin-bottom: 0px;
+}
+
+
+#manageLibrary .gliffy-icon-library-intro-custom-shapes,
+#requestLibrary .gliffy-icon-library-intro-custom-shapes {
+    margin-top:5px;
+}
+
+#manageLibrary .gliffy-icon-library-gliffy-bot-beer,
+#requestLibrary .gliffy-icon-library-gliffy-bot-beer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+#manageLibrary .gliffy-bold,
+#requestLibrary .gliffy-bold {
+    font-weight:bold;
+    color: #333333;
+}
+
+#manageLibrary .gliffy-light,
+#requestLibrary .gliffy-light {
+    color: rgb(121,121,121);
+}
+
+#manageLibrary .gliffy-title,
+#requestLibrary .gliffy-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#requestLibrary .gliffy-requested-libraries .checkbox span {
+    font-weight: normal;
+    color: #666666;
+    vertical-align: top;
+}
+
+#requestLibrary .gliffy-request-library-question {
+    font-size: 18px;
+}
+
+#requestLibrary input.gliffy-request-library-other {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: -10px;
+}

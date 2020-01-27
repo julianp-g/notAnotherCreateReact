@@ -1,0 +1,326 @@
+/* Sidebar
+---------------------------------------------------------*/
+
+.gliffy-sidebar {
+    position: absolute;  /** keep this absolute instead of fixed, safari bug EDITOR-2331**/
+    left: 0;
+    top: 80px;
+    width: 210px;
+    padding-bottom: 12px;
+    margin-bottom: 40px;
+    line-height: 12px;
+    border-right: 1px solid $shape-library-border;
+    height: 99%;
+    color: $shape-library-font;
+}
+
+.scrollable {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.gliffy-sidebar a {
+    color: #000;
+}
+
+.gliffy-sidebar a:hover {
+    text-decoration: none;
+}
+
+.gliffy-sidebar .accordion-heading:hover {
+    background:  $shape-library-hover;
+
+    .gliffy-icon-sidebar-grabber,
+    .gliffy-icon-sidebar-close{
+        color:#333;
+    }
+}
+
+.gliffy-sidebar .nav-tabs .dropdown-toggle .caret,
+.gliffy-sidebar .nav-pills .dropdown-toggle .caret {
+    border-top-color: #000;
+    border-bottom-color: #000;
+}
+
+.gliffy-sidebar .opened:hover {
+    background: $shape-library-hover;
+}
+
+.gliffy-sidebar .btn {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.gliffy-sidebar .nav {
+    margin-bottom: 4px;
+}
+
+.gliffy-accordion-group {
+    border-bottom: 1px solid $shape-library-border;
+    margin: 0;
+    border-radius: 0;
+}
+
+.gliffy-sidebar .accordion-heading .accordion-toggle {
+    color:$shape-library-font;
+}
+
+.gliffy-sidebar .accordion-heading .accordion-toggle.opened{
+    border-bottom: 1px solid $shape-library-border;
+}
+
+.gliffy-accordion-inner .dropdown {
+    margin-bottom: 5px;
+}
+.gliffy-sidebar-shape canvas {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.gliffy-shape-library-sublibrary {
+    position: relative;
+    left: 14px;
+    padding-top: 9px;
+}
+
+div.gliffy-accordion-inner {
+    padding-left: 10px;
+    padding-top: 9px;
+    overflow: hidden;
+}
+
+div.accordion-heading {
+    position: relative;
+}
+
+a.gliffy-panel-remove {
+    color: $shape-library-icon;
+    position:absolute;
+    top:0;
+    right:0;
+    display:block;
+}
+a.gliffy-panel-remove:hover {
+    background-color: transparent;
+}
+
+.gliffy-icon-sidebar-close {
+    display: inline-block;
+}
+
+.gliffy-sidebar-tip {
+    margin: 10px 0 0 20px;
+    opacity: 0.5;
+    display:none;
+}
+
+.gliffy-sidebar-loading {
+    margin: 10px 0 0 20px;
+    opacity: 0.5;
+}
+
+#gliffy-symbol-library .gliffy-panel-move {
+    position: absolute;
+}
+
+#gliffy-symbol-library .accordion-toggle p {
+    padding:13px 0 10px;
+    margin:0;
+    line-height: 1.2em;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gliffy-panel-drag-placeholder {
+    width : 190px;
+    height : 32px;
+    line-height: 32px;
+    text-indent: 30px;
+    opacity: 0.5;
+    background: #DDD;
+    z-index: 550000; /*EDITOR-3857*/
+}
+
+.gliffy-panel-spacer {
+    visibility: hidden;
+    width: 190px;
+    height:32px;
+}
+
+.gliffy-library-panel-premium-shape {
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #AAA;
+    cursor: pointer;
+    position:absolute;
+}
+
+.gliffy-library-panel-premium-shape .gliffy-icon-library-lock-orange {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.gliffy-shape-center{
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    margin:auto
+}
+#gliffy-shape-search-container .accordion-heading .accordion-toggle {
+    padding: 7px 14px 0px 14px;
+}
+#gliffy-shape-search-container .gliffy-search-panel-heading {
+    border: none;
+    height: 40px;
+}
+#gliffy-shape-search-container .gliffy-search-panel-heading:hover {
+    cursor: pointer;
+    background: $shape-library-hover;
+    padding-left: 3px;
+}
+#gliffy-shape-search-results .gliffy-search-panel-body {
+    border-top: none;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#gliffy-shape-search {
+    background-color:$shape-library-search-bg;
+    height: 40px;
+}
+
+#gliffy-shape-search-container{
+    border-top: 1px solid $shape-library-border;
+}
+#gliffy-shape-library-search-field {
+    width: 90%;
+    z-index: 535100; /*EDITOR-3857*/
+    padding: 4px;
+    margin: 4px 5px;
+}
+
+#gliffy-shape-library-search-field::placeholder {
+    font: 14px normal "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: $shape-library-border;
+    padding: 4px 4px 4px 25px;
+}
+
+#search-icon {
+    position: absolute;
+    height: 20px;
+    left: 11px;
+    top: 16px;
+    width: 25px;
+}
+
+.gliffy-pagination {
+    display: none;
+    padding: 10px;
+}
+.gliffy-pagination .btn-group {
+    float: right;
+}
+.gliffy-pagination .gliffy-search-counter {
+    padding-top: 6px;
+}
+#gliffy-shape-search-container  {
+    display: none;
+}
+#gliffy-shape-search-container #com-gliffy-shape-search-toggle{
+    border-top: 1px solid $shape-library-border;
+    border-bottom:none;
+}
+
+#gliffy-shape-search-container .gliffy-search-panel-heading p {
+    margin-left: 15px;
+}
+
+#gliffy-shape-search-container .gliffy-search-panel-heading .gliffy-icon-sidebar-grabber{
+    display: none;
+}
+
+#gliffy-shape-search-container .gliffy-search-panel-heading a{
+    color: $shape-library-font;
+}
+
+#gliffy-shape-search-container .gliffy-search-panel-heading p {
+    line-height: 40px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    padding: 0;
+}
+
+.gliffy-pagination .btn{
+    background: none;
+    color: $shape-library-font;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.gliffy-pagination .btn [class^="icon-"], .gliffy-pagination .btn [class*=" icon-"]{
+    width:40px;
+    height: 40px;
+}
+.gliffy-pagination .btn:hover{
+    background: $shape-library-hover;
+}
+
+.shape-search-pagination.btn[disabled]{
+    background: none;
+    opacity: 0.3;
+}
+.shape-search-pagination.btn[disabled]:hover{
+    background:none;
+}
+
+    /**
+    * Shape library hover
+    **/
+.gliffy-sidebar-shape{
+    border: 1px solid $white;
+}
+
+.gliffy-sidebar-shape:hover {
+    background-color: $shape-library-bg;
+    border: 1px solid $shape-library-border;
+}
+
+
+.gliffy-toolbar-more-shapes {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    float: left;
+    background-color: #333;
+}
+.gliffy-toolbar-more-shapes .btn.moreShapes {
+    font-size: 13px;
+}
+
+.gliffy-toolbar-more-shapes .btn:hover,
+.gliffy-toolbar-more-shapes .btn:active,
+.gliffy-toolbar-more-shapes .btn.active,
+.gliffy-toolbar-more-shapes .btn.disabled,
+.gliffy-toolbar-more-shapes .btn[disabled] {
+    background-color: #444;
+    color:#fff;
+}
+
+.gliffy-toolbar-more-shapes .btn {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}

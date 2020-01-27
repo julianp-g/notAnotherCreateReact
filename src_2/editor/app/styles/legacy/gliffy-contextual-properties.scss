@@ -1,0 +1,882 @@
+/* Buttons to access
+---------------------------------------------------------*/
+#gliffy-contextual-properties-dialog-Trigger {
+    margin-top: -75px;
+}
+
+
+#gliffy-contextual-properties-dialog-Trigger .btn{
+    display: block;
+    background: $cp-black-btn;
+    padding: 0;
+    float: none;
+    border-radius: 0;
+    width: 40px;
+    height: 40px;
+    margin:0;
+    border:none;
+
+    i{
+        font-size: 40px;
+    }
+}
+
+#gliffy-contextual-properties-dialog-Trigger .btn:hover{
+    background-color: $cp-black-btn-hover;
+    opacity:1;
+}
+
+/*
+-----------------------------------------------------------*/
+
+.gliffy-nav-bg {
+}
+
+#gliffy-contextual-properties-dialog.jqmDialog{
+    box-sizing: content-box;
+    padding-left: 40px;
+}
+/*active dropdown styles*/
+#gliffy-contextual-properties-tab-line .dropdown-menu .active,
+#gliffy-contextual-properties-tab-shape .dropdown-menu .active {
+    background-color: #E6F7FF;
+}
+
+
+#gliffy-contextual-properties-controls-tabs .nav {
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#gliffy-contextual-properties-controls-tabs .nav li:not(:last-child){
+   display: block;
+}
+
+#gliffy-contextual-properties-tab-shape{
+    padding-top: 10px;
+}
+#gliffy-contextual-properties-tab-shape input {
+    width: 30px;
+    padding-right: 4px;
+}
+
+.gliffy-properties-textfield {
+    padding: 3px 2px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    /*height: 12px;*/
+}
+
+#gliffy-contextual-properties-tab-shape input[type="checkbox"] {
+    /* when working with checkboxes, be sure to test this in multiple os/browser combinations, as each has different
+        behavior: http://www.456bereastreet.com/lab/form_controls/checkboxes/ */
+    /* EDITOR-1813 */
+    margin: 3px 0px 3px 0;
+    width: 15px;
+}
+
+/** Contextual Property Images **/
+
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-shape,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-line,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-text,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-table,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-custom
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-shape span.gliffy-icon-properties-tab-shape,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-line span.gliffy-icon-properties-tab-line,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-text span.gliffy-icon-properties-tab-text,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-table span.gliffy-icon-properties-tab-table,
+#gliffy-contextual-properties-controls-tabs a.gliffy-property-tab-icon-custom span.gliffy-icon-properties-tab-custom
+{
+    display:inline-block
+}
+
+#gliffy-contextual-properties-tab-custom{
+    padding: 20px 10px 10px;
+}
+/** text properties **/
+#gliffy-contextual-properties-tab-text{
+    padding: 5px;
+}
+
+select.font-size {
+    width: 70px;
+    color: #000;
+}
+
+select.font {
+    width: 100px;
+    color: #000;
+    margin-left: 14px;
+}
+
+.gliffy-pe-align {
+    border-bottom: 1px solid #ccc;
+    -webkit-box-shadow: 0 1px 0 0 white;
+    -moz-box-shadow: 0 1px 0 0 #ffffff;
+    box-shadow: 0 1px 0 0 white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gliffy-pe-align > div > div:first-child .btn-group{
+    border-right: 1px solid $cp-border;
+}
+
+.gliffy-pe-align > div > div:last-child{
+    float:left !important;
+}
+.gliffy-pe-align .btn {
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+.gliffy-pe-toprow {
+    border-bottom: 1px solid $cp-border;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gliffy-pe-toprow div {
+    display: inline;
+}
+
+.gliffy-pe-toprow .gliffy-button-group:not(:last-child) .gliffy-shape-cprops-dropdown:last-child{
+    border-right: 1px solid $cp-border;
+}
+
+.gliffy-shape-properties, .gliffy-line-properties {
+    padding: 5px 5px 10px 10px;
+}
+
+.gliffy-text-properties {
+    padding: 10px 5px;
+}
+
+.gliffy-pe-col01 {
+    margin-left: 10px;
+    float: left;
+    text-align: left;
+}
+
+.gliffy-pe-col01 span.gliffy-degree{
+    padding-left: 5px;
+}
+
+.gliffy-pe-col02 {
+    margin-left: 4px;
+    float: left;
+}
+
+
+.gliffy-pe-col03 {
+    margin-left: 10px;
+    float: left;
+    color: #333;
+}
+
+.gliffy-pe-col01 span, .gliffy-pe-col02 span, .gliffy-pe-col03 span {
+    display: block;
+    position: relative;
+}
+
+.gliffy-pe-col03 #gliffy-contextual-properties-span-lock-aspect,
+.gliffy-pe-col03 > span {
+    margin-bottom: 8px;
+    height: 27px;
+    display: block;
+    position: relative;
+    padding-left: 44px;
+    line-height: 30px;
+}
+
+#gliffy-contextual-properties-tab-shape input[type="checkbox"],
+#gliffy-contextual-properties-checkbox-lockshape input[type="checkbox"]{
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+
+#gliffy-contextual-properties-tab-shape .gliffy-pe-col03 span.gliffy-icon-properties-lock{
+    left: 30px;
+    top: -2px;
+    position: absolute;
+}
+
+#gliffy-contextual-properties-tab-shape .gliffy-pe-col03 span.gliffy-icon-properties-lock:before {
+    margin-left: -10px;
+}
+.gliffy-text-properties .gliffy-tools {
+    float: left;
+    margin-right: 20px;
+}
+
+.gliffy-text-properties .btn {
+    padding: 2px 5px 2px;
+}
+
+.gliffy-pe-link {
+    display: block;
+    clear: both;
+    padding-top: 10px;
+    padding-left: 4px;
+}
+
+/* Dropdowns
+---------------------------------------------------------*/
+.nav-pe .dropdown-menu {
+    min-width: 60px;
+    -webkit-border-radius: 0 x;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.nav-pe .dropdown-toggle {
+    color: #333;
+}
+
+.nav-pe:before, .nav-pe:after {
+    display: table;
+    content: "";
+}
+
+.nav-pe:after {
+    clear: both;
+}
+
+.nav-pe > li {
+    float:left;
+}
+
+.nav-pe > li > a {
+    padding: 4px;
+    margin-right: 10px;
+    line-height: 14px;
+}
+
+.nav-pe > li > button {
+    padding: 4px;
+    margin-right: 10px;
+    line-height: 14px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.nav-pe > li {
+    margin-bottom: -1px;
+}
+
+.nav-pe > .active > a, .nav-pe > .active > a:hover {
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+.nav-pe .dropdown-menu {
+    margin-top: 1px;
+    border-width: 1px;
+}
+
+.nav-pe .dropdown-menu li > a:hover, .nav-pe .dropdown-menu .active > a, .nav-pe .dropdown-menu .active > a:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+/* Line Properties
+---------------------------------------------------------*/
+.gliffy-line-properties .nav {
+    margin: 5px 0 10px 0;
+}
+
+.gliffy-line-properties-arrows {
+    height: 20px;
+}
+
+#gliffy-contextual-properties-controls-tabs .gliffy-contextual-properties-dragarea {
+    position: absolute;
+    width: 100% !important;
+    height: 35px;
+    left: 0; /* if we change left, we need to update grabberOffsetX in GliffyApp.contextualPropertiesController.handleDrag */
+    top: -33px;
+    overflow: hidden;
+    cursor: move;
+}
+
+#gliffy-contextual-properties-controls-tabs.three-tabs .gliffy-contextual-properties-dragarea {
+    left: 110px; /* if we change left, we need to update grabberOffsetX in GliffyApp.contextualPropertiesController.handleDrag */
+}
+
+/** ------------------------------------------ align buttons ---------------------------------------------------**/
+#gliffy-contextual-properties-tab-shape .gliffy-pe-align .btn span {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+    /** --------------- icons -------------------------- **/
+    #gliffy-contextual-properties-tab-shape span.icon {
+        display: inline-block;
+        border: 0;
+        margin:0;
+        padding: 0;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    /** ------------------------------------------ top row ---------------------------------------------------**/
+    #gliffy-contextual-properties-tab-shape .gliffy-pe-toprow span.icon
+    {
+        display: inline-block;
+        border: 0;
+        margin-left:-8px;
+        padding: 0;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        min-width: 30px;
+    }
+
+/** fill icon
+--------------------*/
+.gliffy-color-fill-icon {
+    display:inline-block;
+    vertical-align: middle;
+    width: 16px !important;
+    height:16px;
+    border: 1px solid $cp-border;
+
+    .caret{
+        position: absolute;
+        top: 1px;
+        right: 8px;
+    }
+}
+
+#gliffy-contextual-properties-tab-shape #gliffy-contextual-properties-fill-button  .gliffy-color-fill-icon .caret {
+    top: -6px;
+}
+
+#gliffy-edit-text_gliffyforecolor:hover .gliffy-color-fill-icon .caret {
+    opacity: 1;
+    filter: "alpha(opacity = 100)";
+}
+
+
+/** line icon
+--------------------*/
+#gliffy-contextual-properties-tab-shape span.icon.linestyle {
+    height: 16px;
+    width:53px;
+}
+
+.gliffy-icon-properties-linecolor {
+    position: relative;
+}
+
+.gliffy-color-line-color-icon {
+    position:absolute;
+    display: inline-block;
+    width: 18px;
+    height: 3px;
+    background-color: #FF0000;
+    bottom: 5px;
+    left: 6px;
+}
+
+/** stroke color
+--------------------*/
+#gliffy-contextual-properties-bordercolor-button span.icon {
+}
+
+/** line weight dropdown
+--------------------*/
+#gliffy-contextual-properties-border-width span.icon {
+}
+
+/** swimlane dropdown
+--------------------*/
+#gliffy-contextual-properties-lanes span.icon {
+}
+
+#gliffy-contextual-properties-tab-shape span.icon-line-weight {
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 37px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/** gradient
+--------------------*/
+#gliffy-contextual-properties-gradient-button{
+    padding: 4px 0 0 5px !important;
+    box-sizing: border-box;
+}
+
+/** dropshadow
+--------------------*/
+#gliffy-contextual-properties-shadow-button {
+    padding: 0 !important;
+    width: 26px;
+    padding: 0 0 0 4px;
+}
+.gliffy-pe-toprow #gliffy-contextual-properties-shadow-button span.icon {
+    margin-left: 1px !important;
+    font-size: 37px;
+}
+
+/** opacity
+--------------------*/
+#gliffy #gliffy-contextual-properties-dialog .gliffy-icon-properties-shape-opacity {
+}
+
+#gliffy-contextual-properties-shape-opacity-button {
+}
+
+/**-------------------------------------- bottom row shape props ---------------------------------------------------**/
+#gliffy-contextual-properties-tab-shape span.icon.x {
+    vertical-align: middle;
+}
+
+#gliffy-contextual-properties-tab-shape span.icon.y {
+    vertical-align: middle;
+}
+
+#gliffy-contextual-properties-tab-shape span.icon.rotate {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+}
+
+#gliffy-contextual-properties-textfield-rotation{
+    margin-bottom: 0;
+    margin-left: 24px;
+}
+
+#gliffy-contextual-properties-tab-shape span.icon.w {
+    vertical-align: middle;
+}
+
+#gliffy-contextual-properties-tab-shape span.icon.h {
+    vertical-align: middle;
+}
+
+#gliffy-contextual-properties-tab-shape span.icon.o {
+    vertical-align: middle;
+}
+
+.gliffy-pe-col01 span.degree{
+    display: inline-block;
+}
+
+/** ----------------------- line properties --------------------------------------------------------- **/
+#gliffy-contextual-properties-tab-line span.icon {
+}
+
+#gliffy-contextual-properties-tab-line span.icon.line-ending {
+}
+
+#gliffy-contextual-properties-arrowbegin span.icon,
+#gliffy-contextual-properties-arrowend span.icon {
+}
+
+#gliffy-contextual-properties-arrowbegin span.gliffy-arrow,
+#gliffy-contextual-properties-arrowend span.gliffy-arrow{
+    width: 26px;
+    height: 18px;
+    display:inline-block;
+    line-height:16px;
+    vertical-align: middle;
+}
+
+#gliffy-contextual-properties-arrowbegin span.gliffy-arrow .icon,
+#gliffy-contextual-properties-arrowend span.gliffy-arrow .icon {
+    display: inline-block;
+}
+/** ------------------------------------------ line color ------------------------------------------------**/
+#gliffy-contextual-properties-linecolor-button span.icon {
+    font-size:30px;
+    margin-left: -8px;
+}
+#gliffy-contextual-properties-tab-line .gliffy-icon-properties-linecolor ~ .caret{
+    position: absolute;
+    right: 6px;
+    line-height: 30px;
+}
+
+.gliffy-line-properties .gliffy-color-line-color-icon{
+    left:0;
+}
+
+#gliffy-contextual-properties-linefillcolor-button span.icon {
+    width: 20px;
+    height: 20px;
+}
+
+#gliffy-contextual-properties-linefillcolor-button .caret {
+    margin-left : 3px;
+}
+
+/** ------------------------------------------ line type ------------------------------------------------**/
+#gliffy-contextual-properties-line-type {
+    line-height: 18px;
+}
+
+#gliffy-contextual-properties-line-type span.icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+}
+
+/** ------------------------------------- line weight -----------------------------------------------**/
+#gliffy-contextual-properties-line-width {
+    line-height: 18px;
+}
+
+#gliffy-contextual-properties-line-width span.icon {
+
+}
+
+/** ------------------------------ dash line styles --------------------------------------- **/
+
+#gliffy-contextual-properties-dash-style {
+    line-height: 18px;
+}
+
+/**--------------------------------------------- text tab content --------------------------------------------------**/
+#gliffy-contextual-properties-tab-text .dropdown-menu span.icon {
+    font-size: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    color:$cp-font;
+    line-height: 30px;
+}
+
+#gliffy-contextual-properties-notext-message {
+    padding: 10px 50px 10px 10px;
+}
+
+/* Buttons
+---------------------------------------------------------*/
+/** close button **/
+#gliffy-contextual-properties-controls .jqmdX.jqmClose {
+    position: absolute;
+    top: 0;
+    left: 326px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: transparent;
+    font-size: 20px;
+}
+
+#gliffy-contextual-properties-controls  .gliffy-line-properties-tab.active ~ .jqmdX.jqmClose {
+    left: 286px;
+}
+
+#gliffy-contextual-properties-dialog[style*="275px"] .jqmdX.jqmClose{
+    left: 286px;
+}
+#gliffy-contextual-properties-controls .jqmdX.jqmClose:before{
+    color:$cp-font;
+}
+
+
+#gliffy #gliffy-contextual-properties-dialog .jqmdBC {
+    height: 100%;
+    padding-bottom: 7px;
+}
+
+/*#gliffy makes this more "important" than #gliffy-contextual-properties-dialog .btn-group>.btn */
+#gliffy #gliffy-contextual-properties-dialog .btn-group>:first-child {
+
+}
+
+/*#gliffy makes this more "important" than #gliffy-contextual-properties-dialog .btn-group>.btn */
+#gliffy #gliffy-contextual-properties-dialog .btn-group>:last-child {
+
+}
+
+#gliffy-contextual-properties-dialog .btn-group>.btn {
+
+}
+
+/** buttons **/
+
+
+#gliffy-contextual-properties-dialog .btn,
+#gliffy-contextual-properties-dialog .dropdown .btn,
+#gliffy-contextual-properties-dialog .gliffy-icon-properties-lineweight,
+#gliffy-contextual-properties-dialog .gliffy-icon-properties-linestyle,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_bold,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifyleft,
+.defaultSkin a#gliffy-edit-text_gliffyforecolor,
+.defaultSkin a#gliffy-edit-text_link,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_italic,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifycenter,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_underline,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifyright, .defaultSkin a#gliffy-edit-text_unlink{
+    height: 30px;
+    min-width: 30px;
+    line-height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    color: $cp-font;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+#gliffy-contextual-properties-dialog .btn:before,
+#gliffy-contextual-properties-dialog .dropdown .btn:before,
+#gliffy-contextual-properties-dialog .gliffy-icon-properties-lineweight:before,
+#gliffy-contextual-properties-dialog .gliffy-icon-properties-linestyle:before,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_bold:before,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifyleft:before,
+.defaultSkin a#gliffy-edit-text_gliffyforecolor:before,
+.defaultSkin a#gliffy-edit-text_link:before,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_italic:before,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifycenter:before,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_underline:before,
+.defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifyright:before,
+.defaultSkin a#gliffy-edit-text_unlink:before{
+    font-size: 30px;
+}
+#gliffy-contextual-properties-dialog .gliffy-shape-cprops-dropdown .btn,
+#gliffy-contextual-properties-dialog .dropdown .btn,
+#gliffy-contextual-properties-dialog  .gliffy-line-properties .btn
+{
+    padding: 0 5px 0;
+}
+
+#gliffy-contextual-properties-dialog .btn:hover,
+#gliffy-contextual-properties-dialog .dropdown .btn:hover {
+    color: $cp-font;
+    text-decoration: none;
+    background: $cp-btn-hover;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -ms-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+}
+
+#gliffy-contextual-properties-dialog .btn:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+#gliffy-contextual-properties-dialog .btn:first-child {
+    *margin-left: 0;
+}
+
+#gliffy-contextual-properties-dialog .btn.active, #gliffy-contextual-properties-dialog .btn:active {
+    background-image: none;
+    background-color: $cp-btn-active;
+    color: #777;
+    outline: 0;
+}
+
+#gliffy-contextual-properties-dialog .btn.disabled, #gliffy-contextual-properties-dialog .btn[disabled],
+#gliffy-contextual-properties-dialog .btn.disabled:hover, #gliffy-contextual-properties-dialog .btn[disabled]:hover{
+    cursor: default;
+    background-image: none;
+    background: $cp-btn-disabled;
+    .icon{
+        opacity: 0.25;
+        filter: alpha(opacity = 25);
+    }
+}
+
+#gliffy-contextual-properties-dialog .dropdown.open .dropdown-toggle {
+    color: $cp-font;
+    background: $cp-btn-active;
+}
+
+#gliffy-contextual-properties-dialog .dropdown-menu li > a:hover, #gliffy-contextual-properties-dialog .dropdown-menu .active > a, #gliffy-contextual-properties-dialog .dropdown-menu .active > a:hover {
+    background: $cp-btn-hover;
+}
+
+#gliffy-contextual-properties-button-loremipsum {
+    color: $cp-font;
+    margin-left: 4px;
+    width: 130px;
+}
+
+/* -------------------------------- custom properties -------------------------------- */
+#gliffy-contextual-properties-tab-custom {
+
+}
+
+#gliffy-contextual-properties-tab-custom .ember-view {
+    display: none;
+}
+
+#gliffy-contextual-properties-tab-custom.active .ember-view {
+    display: inline-block;
+}
+
+/* changes made to group the contextual properties buttons */
+li > .gliffy-button-group {
+    margin-left: 0;
+    margin-right: 11px;
+    display: block;
+}
+
+li:last-child > .gliffy-button-group {
+    margin: 0;
+}
+
+.gliffy-button-group > li {
+    float: left;
+}
+
+#gliffy-contextual-properties-tab-shape .gliffy-shape-cprops-icon {
+    position: relative;
+    margin: 5px 0 0 -10px;
+}
+
+#gliffy-contextual-properties-tab-shape .gliffy-shape-cprops-icon > .caret,
+#gliffy-contextual-properties-tab-shape .gliffy-line-properties .caret{
+    position: absolute;
+    right: -4px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+#gliffy-contextual-properties-tab-shape #gliffy-contextual-properties-fill-button .caret {
+    top: -2px;
+    right: -12px;
+}
+
+#gliffy-contextual-properties-tab-shape #gliffy-contextual-properties-shape-opacity-button .caret {
+    top: -1px;
+}
+
+#gliffy-contextual-properties-tab-text #gliffy-contextual-properties-text-position {
+    position: absolute;
+    top: 12px;
+    left: 231px;
+    border-left: 1px solid $cp-border;
+}
+
+#gliffy-contextual-properties-tab-text #gliffy-contextual-properties-text-position .dropdown-toggle {
+    width: 30px;
+    .icon{
+        font-size: 30px;
+        vertical-align: middle;
+    }
+}
+
+#gliffy-contextual-properties-tab-text #gliffy-contextual-properties-vertical-align {
+    position: absolute;
+    top: 82px;
+    left: 150px;
+    border-left: 1px solid $cp-border;
+
+    .btn{
+        box-sizing: border-box;
+        font-size: 30px;
+    }
+}
+
+#gliffy-contextual-properties-vertical-align li:hover .btn{
+    background: $cp-btn-hover;
+}
+
+li, ul {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* TinyMCE Text Foreground Color button override */
+
+#gliffy-contextual-properties-highlight-button .caret {
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+
+/* dialog, tab content styling */
+
+#gliffy-contextual-properties-dialog {
+    .gliffy-property-tab-icon-shape, .gliffy-property-tab-icon-text,
+    .gliffy-property-tab-icon-table, .gliffy-property-tab-icon-custom,
+    .gliffy-property-tab-icon-line{
+        margin: 0;
+        border: none;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        line-height: 40px;
+        height: 40px;
+        padding: 0;
+        background: $cp-black-btn;
+    }
+
+    .gliffy-property-tab-icon-shape:hover, .gliffy-property-tab-icon-text:hover,
+    .gliffy-property-tab-icon-table:hover, .gliffy-property-tab-icon-custom:hover,
+    .gliffy-property-tab-icon-line:hover{
+        background: $cp-black-btn-hover;
+    }
+
+    .active .gliffy-property-tab-icon-shape,
+    .active .gliffy-property-tab-icon-text,
+    .active .gliffy-property-tab-icon-table,
+    .active .gliffy-property-tab-icon-custom,
+    .active .gliffy-property-tab-icon-line{
+        background: $gliffy-blue;
+
+    }
+    .tab-content{
+        background: $white;
+        border: 1px solid $cp-border;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+
+    .defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_bold, .defaultSkin #gliffy-edit-text_toolbar1 a#gliffy-edit-text_justifyleft, .defaultSkin a#gliffy-edit-text_gliffyforecolor, .defaultSkin a#gliffy-edit-text_link{
+        display: block;
+        border: none;
+        width: 30px;
+        height: 30px;
+        background: none;
+    }
+}

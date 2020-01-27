@@ -35,12 +35,8 @@ module.exports = {
                 }
               ]
             },
-            // {
-            //   test: /\.svg$/,
-            //   loader: 'svg-inline-loader'
-            // },
             {
-              test: /\.(woff|ttf|eot|png|svg|jpg|gif)$/,
+              test: /\.(woff|ttf|eot|png|svg|jpg|gif|cur)$/,
               use: [
                 'file-loader',
               ],

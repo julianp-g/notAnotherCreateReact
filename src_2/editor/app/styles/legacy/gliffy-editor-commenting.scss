@@ -1,0 +1,25 @@
+
+.gliffy-editor-comment-sidebar-container {
+    position: absolute;
+    right: 0px;
+    top: 120px;
+    height: calc(100% - 120px);
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px hidden;
+    pointer-events: none; /* pass through mouse events to lower layers */
+    z-index: 549000;
+}
+
+.gliffy-button-with-notification {
+    float: left;
+}
+
+/* Specificity hack */
+.new-comment-mode .gliffy-rte-text, .new-comment-mode .gliffy-rte-text * {
+    cursor: inherit;
+}
+
+.new-comment-mode #container {
+	cursor: url('../@gliffy/diagram-core-commenting/images/bullseye.png') 28 28, auto;
+}

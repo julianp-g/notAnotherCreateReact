@@ -1,0 +1,35 @@
+/*
+ * jsTree default theme 1.0
+ * Supported features: dots/no-dots, icons/no-icons, focused, loading
+ * Supported plugins: ui (hovered, clicked), checkbox, contextmenu, search
+ */
+
+.jstree-gliffy-folder-tree li,
+.jstree-gliffy-folder-tree ins { background-repeat:no-repeat; background-color:transparent; }
+.jstree-gliffy-folder-tree li { background-position:-90px 0; background-repeat:repeat-y; }
+.jstree-gliffy-folder-tree li.jstree-last { background:transparent; }
+.jstree-gliffy-folder-tree .jstree-open > ins { background-position:-72px 0; }
+.jstree-gliffy-folder-tree .jstree-closed > ins { background-position:-54px 0; }
+.jstree-gliffy-folder-tree .jstree-leaf > ins { background-position:-36px 0; }
+
+.jstree-gliffy-folder-tree .jstree-hovered { background:#e7f4f9; border:1px solid #d8f0fa; padding:0 2px 0 1px; }
+.jstree-gliffy-folder-tree .jstree-clicked { background:#beebff; border:1px solid #99defd; padding:0 2px 0 1px; }
+.jstree-gliffy-folder-tree a .jstree-icon { background-position:-56px -19px; }
+.jstree-gliffy-folder-tree.jstree-focused { background:#ffffee; }
+
+.jstree-gliffy-folder-tree .jstree-no-dots li,
+.jstree-gliffy-folder-tree .jstree-no-dots .jstree-leaf > ins { background:transparent; }
+.jstree-gliffy-folder-tree .jstree-no-dots .jstree-open > ins { background-position:-18px 0; }
+.jstree-gliffy-folder-tree .jstree-no-dots .jstree-closed > ins { background-position:0 0; }
+
+.jstree-gliffy-folder-tree .jstree-no-icons a .jstree-icon { display:none; }
+
+.jstree-gliffy-folder-tree .jstree-search { font-style:italic; }
+
+
+.jstree-gliffy-folder-tree a.jstree-search { color:aqua; }
+.jstree-gliffy-folder-tree .jstree-locked a { color:silver; cursor:default; }
+
+#gliffy-online-document-browser-folders-container li { min-height:22px; line-height:22px; }
+#gliffy-online-document-browser-folders-container a { line-height:20px; height:20px; font-size:12px; }
+#gliffy-online-document-browser-folders-container a ins { height:20px; width:20px; background-position:-56px -17px; }

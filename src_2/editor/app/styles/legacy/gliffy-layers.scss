@@ -1,0 +1,128 @@
+#gliffy-layers-dialog {
+    width: 200px;
+    z-index: 540000; /*EDITOR-3857*/
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+#gliffy-layers-dialog.jqmdBC {
+    height: 420px;
+}
+
+#gliffy-layers-area {
+    height: 400px;
+}
+
+.gliffy-layers-dragarea {
+    position: absolute;
+    width: 140px;
+    /*height: 35px;*/
+    left: 0px; /* if we change left, we need to update grabberOffsetX in GliffyApp.contextualPropertiesController.handleDrag */
+    top: 0px;
+    overflow: hidden;
+    cursor: move;
+}
+
+.gliffy-layers-dragarea.jqmdTC {
+    position: relative;
+    text-align: center;
+}
+
+.gliffy-layers-bg {
+    background-color: #fff;
+    border-bottom: 1px solid $grey-border;
+}
+
+#gliffy-layers-controls .jqmdBC {
+    height: 420px;
+}
+
+#gliffy-layers-controls .jqmdX.jqmClose, #gliffy-theme-controls .jqmdX.jqmClose {
+    position: absolute;
+    right: 7px;
+    top: 8px;
+}
+
+#gliffy-layers-area .accordion-toggle{
+}
+
+#gliffy-layers-area .accordion-toggle .gliffy-layer-name {
+    line-height: 40px;
+    max-width: 86px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    width:86px;
+    font-weight: normal;
+    display:inline-block;
+}
+
+#gliffy-layers-area .accordion-toggle .gliffy-layer-name[data-active=true] {
+    font-weight: bold;
+}
+
+#gliffy-layers-area .accordion-toggle[data-active=true] {
+    background-color:$shape-library-hover;
+}
+
+#gliffy-layers-area .gliffy-accordion-group.active .gliffy-icon-sidebar-grabber{
+    color:#333;
+}
+
+#gliffy-layers-area .accordion-toggle .gliffy-layer-name-input {
+    margin: 0;
+    line-height: 13px;
+    color: #000;
+    font-weight: bold;
+    width:86px;
+    display:inline-block;
+}
+
+#gliffy-layers-area .accordion-toggle button{
+    padding-left:4px;
+    padding-right:2px;
+}
+
+#gliffy-layers-area .btn-group {
+    background-color: $grey-bg;
+}
+
+#gliffy-layers-area .btn-group .btn{
+    border: 0;
+    padding: 0;
+    line-height: 16px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    background-color: $grey-bg;
+}
+
+#gliffy-layers-area .btn-group .btn:hover,
+#gliffy-layers-area .btn-group .btn:active,
+#gliffy-layers-area .btn-group .btn:focus {
+    background-color: $grey-button-hover;
+    color: $font;
+}
+
+#gliffy-layers-area .gliffy-panel-move {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.accordion-toggle .gliffy-layers-icon{
+    margin-right: .3em;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.gliffy-layers-scrollable{
+    height:377px;
+    border-bottom: 1px solid $grey-border;
+}
+
+.gliffy-layer-hand-cursor{
+    cursor:pointer
+}

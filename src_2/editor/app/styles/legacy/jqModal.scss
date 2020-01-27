@@ -1,0 +1,137 @@
+div.whiteOverlay {
+    background: white;
+}
+
+/* jqmModal dialog CSS courtesy of;
+  Brice Burgess <bhb$iceburg.net> */
+
+div.jqmDialog {
+    display: none;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    margin-left: -200px;
+    width: 310px;
+    /*overflow: hidden;*/
+    font-family: 'proxima-nova', helvetica, sans-serif;
+}
+
+div.jqmDialog *, div.jqmDialog *:before, div.jqmDialog *:after{
+    box-sizing: content-box;
+}
+
+    /* Fixed posistioning emulation for IE6
+    Star selector used to hide definition from browsers other than IE6
+    For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+    position: absolute;
+}
+
+/* [[[ Title / Top Classes ]]] */
+
+div.jqmdTC, div.jqmdTL, div.jqmdTR {
+    border-color: $grey-border;
+}
+
+div.jqmdTC {
+    padding: 0;
+    line-height: 40px;
+    font-family:'proxima-nova', helvetica, sans-serif;
+    *zoom: 1;
+    text-align: center;
+}
+
+/* [[[ Body / Message Classes ]]] */
+div.jqmdBC {
+    background: repeat-x center bottom;
+    padding: 0;
+    height: 180px; /*overflow: hidden;*/
+}
+
+div.jqmdBL {
+}
+
+div.jqmdBR {
+    background: no-repeat right bottom;
+    *zoom: 1
+}
+
+div.jqmdMSG {
+    color: $font;
+    background: #fff;
+}
+
+/* [[[ Button classes ]]] */
+input.jqmdX {
+    position: absolute;
+    right: 2px;
+    top: 6px;
+    padding: 0 0 0 19px;
+    height: 14px;
+    width: 0px;
+    overflow: hidden;
+}
+
+input.jqmdXFocus {
+    background-position: bottom left;
+    outline: none;
+}
+
+div.jqmdBC button, div.jqmdBC input[type="submit"] {
+    /*margin: 8px 10px 4px 10px;*/
+    color: #777;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+div.jqmDialog input:focus, div.jqmDialog input.iefocus {
+    background-color: #fff;
+}
+
+/* Properties Editor Tabs
+---------------------------------------------------------*/
+.jqmdMSG .nav-tabs > li > a {
+    padding: 2px 4px;
+    margin-left: 3px;
+    line-height: 18px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.jqmdMSG .nav-tabs > li > a, .jqmdMSG .nav-tabs > li > a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.jqmdMSG .nav-tabs > .active > a, .jqmdMSG .nav-tabs > .active > a:hover {
+    color: #333;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+.jqmdMSG .nav-tabs > a {
+    color: #555;
+    background-color: #666;
+    border: 1px solid #ccc;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+/*.jqmdMSG .nav {*/
+/*margin-bottom:6px;*/
+/*margin-left:6px;*/
+/*border-bottom:1px solid #ccc;*/
+/*}*/
+
+.jqmdMSG .nav {
+    margin-bottom: 0;
+}
+
+.jqmdMSG .tab-content {
+    padding: 0;
+    padding-top: 4px;
+}

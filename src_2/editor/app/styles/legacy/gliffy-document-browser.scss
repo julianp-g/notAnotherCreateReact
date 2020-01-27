@@ -1,0 +1,228 @@
+/* Document Mgr Popup
+---------------------------------------------------------*/
+.gliffy-document-mgr .gliffy-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 590000; /*EDITOR-3857*/
+    overflow: auto;
+    width: 960px;
+    margin: -250px 0 0 -480px;
+    background-color: #fff;
+    border: 1px solid $grey-border;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 5px 24px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.1);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.gliffy-document-mgr .gliffy-modal-body {
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-height: 300px;
+}
+
+.gliffy-document-mgr ul {
+    margin: 0;
+    padding: 0;
+}
+
+.gliffy-document-mgr li {
+    list-style: none;
+    line-height: 28px;
+    border-bottom: 1px solid #F3F4F7;
+}
+
+.gliffy-document-mgr li img {
+    padding-right: 8px;
+    height: 15px;
+    width: 15px;
+}
+
+.gliffy-document-mgr .gliffy-modal-header {
+    padding: 9px 15px;
+    border-bottom: 0px;
+    background: #163564;
+    color: #fff;
+}
+
+.gliffy-document-mgr .gliffy-modal-header .close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    opacity: 0.5;
+    filter: "alpha(opacity = 50)";
+    padding: 10px;
+    margin: -14px -12px;
+}
+
+.gliffy-document-mgr .gliffy-modal-header .close:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    filter: "alpha(opacity = 80)";
+    cursor: pointer;
+}
+
+.gliffy-document-mgr .gliffy-modal-title li {
+    display: inline;
+    background: #ddd;
+    font-weight: bold;
+    border-bottom: 1px solid #F3F4F7;
+    border-right: 1px solid #DCE0E8;
+    padding: 3px 10px;
+}
+
+/* title bar */
+.gliffy-document-mgr th {
+    background: #DCE0E8;
+    border-right: 1px solid #BEC6D6;
+    padding: 3px 0 3px 10px;
+    text-align: left;
+    color: #333;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-preview {
+    max-height: 290px;
+    max-width: 240px;
+    min-width: 240px;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-preview div {
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
+.gliffy-document-mgr th.gliffy-title-spaces {
+    width: 243px;
+}
+
+.gliffy-document-mgr th.gliffy-title-name {
+    width: 268px;
+}
+
+.gliffy-document-mgr th.gliffy-title-date {
+    width: 164px;
+}
+
+.gliffy-document-mgr th.gliffy-title-preview {
+    width: 252px;
+    border-right: 0px;
+}
+
+.gliffy-document-mgr table th.gliffy-name {
+    border-right: 1px solid #DCE0E8;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-spaces {
+    float: left;
+    width: 250px;
+    height: 300px;
+    border-right: 1px solid #DCE0E8;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.gliffy-document-browser-spaces a:hover, .gliffy-document-browser-diagrams a:hover {
+    text-decoration: none;
+}
+
+/* columns */
+.gliffy-document-mgr .gliffy-document-browser-diagrams {
+    float: left;
+    height: 300px;
+    min-width: 448px;
+    max-width: 448px;
+    border-right: 1px solid #DCE0E8;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-diagrams table td.gliffy-name {
+    width: 265px;
+    border-right: 1px solid #F3F4F7;
+    overflow-x: hidden;
+    padding-left: 10px;
+    max-width: 265px;
+    word-wrap: break-word;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-diagrams table td.gliffy-date {
+    width: 145px;
+    max-width: 145px;
+    padding-left: 10px;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-preview {
+    float: left;
+    width: 242px;
+    height: 300px;
+    padding: 10px 10px 0 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-diagrams table td {
+    border-bottom: 1px solid #F3F4F7;
+    padding: 5px 0;
+}
+
+.gliffy-document-mgr li a:link,
+.gliffy-document-mgr td a:link,
+.gliffy-document-mgr li a:visited,
+.gliffy-document-mgr td a:visited {
+    color: #333;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-diagrams table tr:hover {
+    background: #f2f2f2;
+}
+
+.gliffy-document-mgr ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.gliffy-document-mgr li.gliffy-selected {
+    background-color: #eee;
+}
+
+.gliffy-document-mgr .gliffy-document-browser-diagrams table tr.gliffy-selected td {
+    background: #eee;
+}
+
+/* modal footer */
+.gliffy-modal-footer:before,
+.gliffymodal-footer:after {
+    display: table;
+    content: "";
+}
+
+.gliffy-modal-footer:after {
+    clear: both;
+}
+
+.gliffy-modal-footer .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.gliffy-modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+
+.gliffy-icon-documentBrowser-confluence {
+    display : inline-block;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:5px;
+}
+

@@ -1,0 +1,95 @@
+.gliffy-opacity-widget {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 535800; /*EDITOR-3857*/
+    display: none;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gliffy-widget-container {
+    overflow: hidden;
+    width: 65px;
+    height: 106px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.gliffy-widget-container > div {
+    display: inline;
+}
+
+.gliffy-opacity-widget input {
+    width: 25px;
+    vertical-align: top;
+    margin-right: 3px;
+}
+
+.gliffy-opacity-widget span {
+    line-height: 30px;
+}
+
+.gliffy-opacity-widget .slider-handle {
+    width: 16px;
+    height: 16px;
+    background-color: #333333;
+    background-image: -moz-linear-gradient(top, #EEEEEE, #DDDDDD);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EEEEEE), to(#DDDDDD));
+    background-image: -webkit-linear-gradient(top, #EEEEEE, #DDDDDD);
+    background-image: -o-linear-gradient(top, #EEEEEE, #DDDDDD);
+    background-image: linear-gradient(to bottom, #EEEEEE, #DDDDDD);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#DDDDDD', GradientType=0);
+    opacity: 1;
+}
+
+.slider-selection {
+    background-color: #CCCCCC;
+    background-image: -moz-linear-gradient(top, #CCCCCC, #CCCCCC);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CCCCCC), to(#CCCCCC));
+    background-image: -webkit-linear-gradient(top, #CCCCCC, #CCCCCC);
+    background-image: -o-linear-gradient(top, #CCCCCC, #CCCCCC);
+    background-image: linear-gradient(to bottom, #CCCCCC, #CCCCCC);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='#CCCCCC', GradientType=0);
+}
+
+/** Custom vertical slider styline **/
+.gliffy-opacity-widget .slider.slider-vertical {
+    height: 100px;
+}
+
+.gliffy-opacity-widget .slider.slider-vertical .slider-selection {
+    width: 8px;
+}
+
+.gliffy-opacity-widget .slider.slider-vertical .slider-handle {
+    margin-left: -4px;
+}
+
+.gliffy-opacity-widget .slider.slider-vertical {
+    width: 10px;
+}
+
+.gliffy-opacity-widget .slider.slider-vertical .slider-selection {
+    width: 8px;
+}
+
+.gliffy-opacity-widget .slider.slider-vertical .slider-track {
+    width: 8px;
+}
+
+.gliffy-opacity-widget .slider-track {
+    background-color: #CCCCCC;
+    background-image: -moz-linear-gradient(top, #CCCCCC, #CCCCCC);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#CCCCCC), to(#CCCCCC));
+    background-image: -webkit-linear-gradient(top, #CCCCCC, #CCCCCC);
+    background-image: -o-linear-gradient(top, #CCCCCC, #CCCCCC);
+    background-image: linear-gradient(to bottom, #CCCCCC, #CCCCCC);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='#CCCCCC', GradientType=0);
+
+}
+

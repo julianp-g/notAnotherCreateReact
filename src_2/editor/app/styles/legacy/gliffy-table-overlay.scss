@@ -1,0 +1,42 @@
+#gliffy-table-overlay {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+#gliffy-table-shift-highlight {
+    background-color: #BDEFFF;
+}
+#gliffy-table-overlay.active {
+    display: block;
+}
+.gliffy-table-resize-x-overlay {
+    position: absolute;
+    /*border:1px solid greenyellow;*/
+}
+.gliffy-table-resize-y-overlay {
+    position: absolute;
+    /*border:1px solid orange;*/
+}
+.gliffy-table-resize-overlay-control-x {
+    position: absolute;
+    padding: 0;
+    width: 4px;
+    height: 100%;
+    z-index: 535400; /*EDITOR-3857*/
+    display: block;
+}
+.gliffy-table-resize-overlay-control-y {
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 535400; /*EDITOR-3857*/
+    display: block;
+}
+#gliffy-table-shift-highlight {
+    background-color: #3BC4FF;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 535400; /*EDITOR-3857*/
+    display: none;
+}

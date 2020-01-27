@@ -1,0 +1,118 @@
+#gliffy-tips {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 590000; /*EDITOR-3857*/
+    display: none;
+}
+
+#gliffy-tips div {
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+#gliffy-tips p {
+    font-size: 14px;
+}
+
+#gliffy-tips .gliffy-tips-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+}
+
+#gliffy-tips .gliffy-tips-dialog {
+    background: #fff;
+    border: 1px solid $grey-border;
+    width: 780px;
+    padding: 20px;
+    box-shadow: #666 5px 10px 15px;
+    -webkit-box-shadow: #666 5px 10px 15px;
+    -moz-box-shadow: #666 5px 10px 15px;
+    font-size: 14px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -390px;
+    opacity: 1;
+}
+
+#gliffy-tips h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.gliffy-tips-header {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    padding-bottom: 10px;
+    color: #888;
+    font-size: 16px;
+}
+
+.gliffy-tips-number {
+    display: inline;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.gliffy-tips-content {
+    padding: 5px 0;
+    min-height: 480px;
+}
+
+.gliffy-tips-content p {
+    margin: 0;
+    padding: 8px 0;
+}
+
+.gliffy-tips-graphic {
+    background-image: url(../images/icon/tips/drag-and-drop.gif);
+    width: 550px;
+    height: 360px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.gliffy-tips-footer {
+    border-top: 1px solid #ccc;
+    color: #888;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+#gliffy-tips .right {
+    float: right;
+    margin-top: 10px;
+}
+
+#gliffy-tips .center {
+    margin-left: 327px;
+}
+
+#gliffy-tips .left {
+    float: left;
+    margin-top: 10px;
+}
+
+#gliffy-tips-link-previous-tip {
+    margin-right: 15px;
+}
+
+#gliffy-tips-checkbox-no-tips-label {
+    display: inline;
+    color: #888;
+    font-size: 16px;
+}
+

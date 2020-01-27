@@ -1,0 +1,168 @@
+#modifyCustomLibrary {
+    width : 810px;
+    margin: -270px 0 0 -400px;
+}
+
+#modifyCustomLibrary .modal-header {
+    text-align: center;
+}
+
+#modifyCustomLibrary .modal-body {
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+    max-height: none;
+    padding: 15px 15px 0 15px;
+}
+
+#modifyCustomLibrary #customLibraryDragAndDrop {
+    border: 2px dashed #CCCCCC;
+    padding: 10px;
+    width: 754px;
+    font-size:14px;
+}
+
+#modifyCustomLibrary #customLibraryDragAndDrop .gliffy-drag-and-drop-title {
+    font-size: 19px;
+    font-weight:bold;
+}
+
+#modifyCustomLibrary #customLibraryDragAndDrop p {
+    margin:0px;
+    line-height:22px;
+}
+
+#modifyCustomLibrary #customLibraryDragAndDrop .gliffy-bold {
+    font-weight:bold;
+}
+
+#modifyCustomLibrary #customLibraryDragAndDrop .gliffy-light {
+    color: rgb(121,121,121);
+}
+
+.custom-library-shapes-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:270px;
+    border-top: 1px solid #eee;
+    margin-top: 13px;
+    padding-left: 15px;
+    padding-top: 3px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#modifyCustomLibrary #customLibraryShapes {
+    overflow: auto;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    width: 780px;
+}
+
+#modifyCustomLibrary .gliffy-custom-shape-preview{
+    float:left;
+    position: relative;
+    margin-right: 10px;
+    margin-top:10px;
+    padding: 8px;
+    border: 1px solid #CCC;
+}
+#modifyCustomLibrary .gliffy-custom-shape-spacer,
+.gliffy-custom-shape-clone {
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    float:left;
+    position: relative;
+    margin-right: 10px;
+    margin-top:10px;
+    padding: 8px;
+    border: 1px solid #CCC;
+}
+
+#modifyCustomLibrary .gliffy-custom-shape-preview.gliffy-selected {
+    padding: 7px;
+    border: 2px solid rgb(104,104,104);
+}
+
+#modifyCustomLibrary .gliffy-custom-shape-preview.gliffy-selected .gliffy-icon-library-remove-shape {
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+#modifyCustomLibrary .gliffy-custom-shape-spacer {
+    border: 1px solid transparent;
+    background: #CCC;
+    opacity: 0.5;
+}
+
+#gliffyFileUploadInput {
+    padding : 0;
+    margin : 0;
+}
+
+#gliffyFileUploadWrapper {
+    opacity : 0;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    position: absolute;
+    left: -9999px;
+}
+
+#modifyCustomLibrary form {
+    margin:0;
+}
+
+#modifyCustomLibrary #gliffyFileUploadLink,
+#modifyCustomLibrary #gliffyFileUploadLink:hover,
+#modifyCustomLibrary #gliffyFileUploadLink:visited{
+    font-weight:bold;
+    text-decoration: none;
+    color: rgb(76,109,157);
+}
+
+.gliffy-custom-library-fields {
+    padding-bottom:10px;
+}
+
+.gliffy-custom-library-fields .row-fluid {
+    background : transparent;
+}
+
+.gliffy-custom-library-fields .gliffy-custom-name-container {
+    font-size: 19px;
+    padding-top:2px;
+}
+
+#modifyCustomLibrary hr {
+    margin: 0 0 20px 0;
+}
+
+#modifyCustomLibrary .gliffy-custom-name-field {
+    display: none;
+    font-size:19px;
+    width: 100%;
+}
+
+#modifyCustomLibrary .gliffy-icon-library-pencil {
+    display: inline-block;
+}
+
+#modifyCustomLibrary .gliffy-custom-library-edit-permission {
+    float:right;
+    margin-bottom: 0px;
+}
+
+#modifyCustomLibrary #gliffy-custom-error-notice {
+    display:none;
+}
+
+#modifyCustomLibrary #gliffy-custom-error-notice div.alert {
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+

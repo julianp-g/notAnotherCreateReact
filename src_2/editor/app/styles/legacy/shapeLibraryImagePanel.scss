@@ -1,0 +1,71 @@
+/** -----------------------images---------------------------------**/
+#gliffy-symbol-library-com-gliffy-library-images #gliffy-shape-library-images-container {
+    height: 304px;
+    padding-left: 5px;
+}
+
+.gliffy-shape-library-sublibrary p.gliffy-image-browser-subtext {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.gliffy-image-browser-pagination {
+    padding: 0 10px 0;
+}
+
+.gliffy-image-browser-pagination .gliffy-image-browser-counter {
+    padding-top: 6px;
+
+}
+
+.gliffy-image-browser-pagination .btn-group {
+    float: right;
+}
+
+div.gliffy-accordion-inner span#gliffy-shape-library-images-container {
+    padding-top: 0px;
+}
+
+#gliffy-shape-library-com-gliffy-library-images .gliffy-shape-library-sublibrary {
+    left: 5px;
+}
+
+/** ------------------ other temporary placeholders ------------------------------------------------------------ **/
+div.gliffy-shape-library-com-gliffy-shape-image {
+    display: inline-block;
+    margin: 4px;
+    min-width: 50px;
+    text-align: center;
+}
+
+div.gliffy-shape-library-com-gliffy-shape-image img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#gliffy-image-browser-button-addImages.btn, #gliffy-image-browser-button-refresh.btn{
+    border: 1px solid $gliffy-blue;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 26px;
+    line-height: 26px;
+    font: 13px 200;
+    color:  $gliffy-blue;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+}
+#gliffy-image-browser-button-previous, #gliffy-image-browser-button-next{
+    color: $shape-library-icon;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 40px;
+}
+#gliffy-image-browser-button-previous:hover, #gliffy-image-browser-button-next:hover{
+     background: $grey-button-hover;
+ }
+#gliffy-image-browser-button-previous[disabled]:hover, #gliffy-image-browser-button-next[disabled]:hover{
+    background: none;
+}

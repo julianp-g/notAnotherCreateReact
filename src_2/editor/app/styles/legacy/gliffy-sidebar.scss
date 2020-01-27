@@ -1,0 +1,298 @@
+/**---------------------------- gliffy flowchart shape library placeholders --------------------------------**/
+
+/* Sidebar*/
+/*---------------------------------------------------------*/
+/*.gliffy-sidebar {*/
+/*position:fixed;*/
+/*left:0;*/
+/*top:87px;*/
+/*width:203px;*/
+/*padding-top:1px;*/
+/*padding-left:2px;*/
+/*line-height:12px;*/
+/*border-right:1px solid #bbb;*/
+/*height:99%;*/
+/*}*/
+
+/*.scrollable {*/
+/*overflow-x:hidden;*/
+/*overflow-y:auto;*/
+/*}*/
+/*.gliffy-sidebar a {*/
+/*color:#000;*/
+/*}*/
+/*.gliffy-sidebar a:hover {*/
+/*text-decoration:none;*/
+/*background:#f0f0f0;*/
+/*color:#000;*/
+/*}*/
+/*.gliffy-sidebar .nav-tabs .dropdown-toggle .caret, */
+/*.gliffy-sidebar .nav-pills .dropdown-toggle .caret {*/
+/*border-top-color: #000;*/
+/*border-bottom-color: #000;*/
+/*}*/
+/*.gliffy-sidebar .opened {*/
+/*background:#ddd;*/
+/*color:#000;*/
+/*font-weight:bold;*/
+/*border:1px solid #ccc;*/
+/*border-width:1px 0;*/
+/*}*/
+/*.gliffy-sidebar .btn {*/
+/*padding-bottom: 4px;*/
+/*padding-top: 4px;*/
+/*}*/
+
+/*.gliffy-sidebar .nav {*/
+/*margin-bottom: 4px;*/
+/*}*/
+/*.gliffy-accordion-group {*/
+/*border-bottom: 1px solid #e5e5e5;*/
+/*}*/
+/*.gliffy-sidebar .accordion-heading .accordion-toggle {*/
+/*padding:10px 15px 8px 15px;*/
+/*}*/
+/*.gliffy-accordion-inner {*/
+/*background: #F2F2F2;*/
+/*border-top:1px solid #ddd;*/
+/*}*/
+/*.gliffy-accordion-inner .dropdown {*/
+/*margin-bottom:5px;*/
+/*}*/
+/*.gliffy-sidebar-btns {*/
+/*text-align:center;*/
+/*height:60px;*/
+/*}*/
+/*.gliffy-shape-library-sublibrary {*/
+/*position: relative;*/
+/*left: 14px;*/
+/*padding-top: 9px;*/
+/*}*/
+/*div.gliffy-sidebar-shape {*/
+/*display:inline-block;*/
+/*vertical-align: top;*/
+/*width:50px;*/
+/*height:50px;*/
+/*}*/
+
+/*#gliffy-sidebar-com-gliffy-library-uml .gliffy-sidebar-shape {*/
+/*width:56px;*/
+/*}*/
+
+/*div.gliffy-accordion-inner span {*/
+/*padding-left:10px;*/
+/*padding-top:9px;*/
+/*display:inline-block;*/
+/*vertical-align: top;*/
+/*width: 193px;*/
+/*height:271px;*/
+/*overflow:hidden;*/
+/*background-repeat: no-repeat;*/
+/*}*/
+
+/** ----------------- basic shape library -------------------------------**/
+/** adds border above symbols span.  for when you have dropdown **/
+/*#gliffy-symbol-library-com-gliffy-library-basic span {*/
+/*border-top:1px solid #ddd;*/
+/*height:310px;*/
+/*}*/
+
+/*div.gliffy-shape-library-com-gliffy-shape-basic-basic_v1-default {*/
+/*background-image: url('../appPlugin/shapeLibraryPanel/images/basic_v1.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-basic-basic_v2-default {*/
+/*background-image: url('../appPlugin/shapeLibraryPanel/images/basic_v2.png');*/
+/*}*/
+
+/** -------------- flowchart shape library ------------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-flowchart span {*/
+/*border-top:1px solid #ddd;*/
+/*height:450px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-flowchart-flowchart_v1-default {*/
+/*background-image: url('../images/editor/shapeLibrary/flowchart_v1.png');*/
+/*}*/
+
+/*div.gliffy-shape-library-com-gliffy-shape-flowchart-flowchart_v2-default {*/
+/*background-image: url('../images/editor/shapeLibrary/flowchart_v2.png');*/
+/*}*/
+
+/** ----------------- network home shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-network span {*/
+/*border-top:1px solid #ddd;*/
+/*height:560px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-network-network_v3-home {*/
+/*background-image: url('../images/editor/shapeLibrary/network_home.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-network-network_v3-business {*/
+/*background-image: url('../images/editor/shapeLibrary/network_v3_business.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-network-network_v3-rack {*/
+/*background-image: url('../images/editor/shapeLibrary/network_v3_rack.png');*/
+/*width:75px*/
+/*}*/
+
+/** ----------------- uml shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-uml span {*/
+/*height:360px;*/
+/*}*/
+
+/*div.gliffy-shape-library-com-gliffy-shape-uml-uml_v1-default {*/
+/*background-image: url('../images/editor/shapeLibrary/uml_v1.png');*/
+/*}*/
+/** ----------------- erd shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-erd span {*/
+/*height:360px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-erd-erd_v1-default {*/
+/*background-image: url('../images/editor/shapeLibrary/erd_v1.png');*/
+/*}*/
+
+/** ----------------- swimlane shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-swimlanes span {*/
+/*height:330px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-swimlanes-swimlanes_v1-default {*/
+/*background-image: url('../images/editor/shapeLibrary/swimlanes_v1.png');*/
+/*width:80px;*/
+/*height:80px;*/
+/*}*/
+
+/** ----------------- sitemap shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-sitemap span {*/
+/*height:460px;*/
+/*}*/
+
+/*div.gliffy-shape-library-com-gliffy-shape-sitemap-sitemap_v1-default {*/
+/*background-image: url('../images/editor/shapeLibrary/sitemap_v1.png');*/
+/*}*/
+
+/** ----------------- ui shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-ui span {*/
+/*height:315px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-ui-ui_v2-forms_components {*/
+/*background-image: url('../images/editor/shapeLibrary/ui_ui_v2_forms_components.png');*/
+/*width:60px;*/
+/*height:60px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-ui-ui_v2-content {*/
+/*background-image: url('../images/editor/shapeLibrary/ui_ui_v2_content.png');*/
+/*width:60px;*/
+/*height:60px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-ui-ui_v2-miscellaneous {*/
+/*background-image: url('../images/editor/shapeLibrary/ui_ui_v2_miscellaneous.png');*/
+/*}*/
+
+/** ----------------- bpmn shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-bpmn span {*/
+/*border-top:1px solid #ddd;*/
+/*height:410px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-bpmn-bpmn_v1-events {*/
+/*background-image: url('../images/editor/shapeLibrary/bpmn_v1_events.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-bpmn-bpmn_v1-activities {*/
+/*background-image: url('../images/editor/shapeLibrary/bpmn_v1_activities.png');*/
+/*width:80px;*/
+/*height:60px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-bpmn-bpmn_v1-data_artifacts {*/
+/*background-image: url('../images/editor/shapeLibrary/bpmn_v1_data_artifacts.png');*/
+/*width:60px;*/
+/*height:60px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-bpmn-bpmn_v1-gateways {*/
+/*background-image: url('../images/editor/shapeLibrary/bpmn_v1_gateways.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-bpmn-bpmn_v1-connectors {*/
+/*background-image: url('../images/editor/shapeLibrary/bpmn_v1_connectors.png');*/
+/*width:80px;*/
+/*}*/
+
+/** ----------------- venn shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-venn span {*/
+/*border-top:1px solid #ddd;*/
+/*height:220px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-venn-radial-default {*/
+/*background-image: url('../images/editor/shapeLibrary/venn_radial_default.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-venn-flat-default {*/
+/*background-image: url('../images/editor/shapeLibrary/venn_flat_default.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-venn-outline-default {*/
+/*background-image: url('../images/editor/shapeLibrary/venn_outline_default.png');*/
+/*}*/
+/** ----------------- floorplan shape library -------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-floorplan span {*/
+/*border-top:1px solid #ddd;*/
+/*height: 410px;*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-structure {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_structure.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-bedroom {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_bedroom.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-living_room {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_living_room.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-dining_room {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_dining_room.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-kitchen {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_kitchen.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-bathroom {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_bathroom.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-office {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_office.png');*/
+/*}*/
+/*div.gliffy-shape-library-com-gliffy-shape-floorplan-floorplan_v2-miscellaneous {*/
+/*background-image: url('../images/editor/shapeLibrary/floorplan_floorplan_v2_miscellaneous.png');*/
+/*}*/
+
+/** -----------------------images---------------------------------**/
+/*#gliffy-symbol-library-com-gliffy-library-images #gliffy-shape-library-images-container {*/
+/*height:304px;*/
+/*padding-left:5px;*/
+/*}*/
+
+/*.gliffy-shape-library-sublibrary p.gliffy-image-browser-subtext{*/
+/*font-size:11px;*/
+/*margin-top:5px;*/
+/*}*/
+/*.gliffy-image-browser-pagination {*/
+/*padding:10px;*/
+/*background:#F2F2F2;*/
+/*}*/
+/*.gliffy-image-browser-pagination .gliffy-image-browser-counter {*/
+/*padding-top:6px;*/
+/**/
+/*}*/
+/*.gliffy-image-browser-pagination .btn-group {*/
+/*float:right;*/
+/*}*/
+
+/*div.gliffy-accordion-inner span#gliffy-shape-library-images-container {*/
+/*padding-top:0px;*/
+/*}*/
+
+/** ------------------ other temporary placeholders ------------------------------------------------------------ **/
+/*div.gliffy-shape-library-com-gliffy-shape-image {*/
+/*display:inline-block;*/
+/*margin: 4px;*/
+/*min-width: 50px;*/
+/*text-align: center;*/
+/*}*/
+
+/*div.gliffy-shape-library-com-gliffy-shape-image img {*/
+/*max-width: 50px;*/
+/*max-height: 50px;*/
+/*}*/
+
+

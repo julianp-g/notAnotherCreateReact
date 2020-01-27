@@ -1,0 +1,380 @@
+/**
+ THE SOURCE CODE CONTAINED IN THIS FILE IS THE CONFIDENTIAL AND PROPRIETARY
+ PROPERTY OF GLIFFY, INC.  ANY USE, DISCLOSURE OR DISTRIBUTION
+ OF THIS SOURCE CODE IS PROHIBITED WITHOUT THE PRIOR WRITTEN CONSENT OF
+ GLIFFY, INC.
+
+ THIS SOURCE CODE IS  CONFIDENTIAL AND MAY NOT BE SHARED WITH THIRD PARTIES
+ WITHOUT THE PRIOR WRITTEN CONSENT OF GLIFFY, INC.
+
+ COPYRIGHT 2011 GLIFFY, INC.  ALL RIGHTS RESERVED.
+ overlay : css for overlay controls
+
+ Author: Rocco Balsamo
+
+ **/
+$disabled-outline: #b3b3b3;
+
+#gliffy-overlay {
+    display: none;
+}
+
+.gliffy-overlay-outline {
+    padding: 0px;
+    border: 1px solid $gliffy-blue;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 520000; /*EDITOR-3857*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+}
+
+#gliffy-overlay.lanes .gliffy-overlay-control-lane,
+#gliffy-overlay.resize .gliffy-overlay-control {
+    position: absolute;
+    padding: 0px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px; /*center this sucker!*/
+    margin-left: -4px; /*center this sucker!*/
+    z-index: 520100; /*EDITOR-3857*/
+    display: block;
+    background-color: $gliffy-blue;
+}
+
+#gliffy-overlay.rotate .gliffy-overlay-rotate {
+    position: absolute;
+    padding: 0px;
+    margin-top: -13px; /*center this sucker!*/
+    margin-left: -18px; /*center this sucker!*/
+    z-index: 520500; /*EDITOR-3857*/
+    display: block;
+    font-size: 40px;
+}
+
+#gliffy-overlay.rotate .gliffy-overlay-rotate-handle {
+    border: 1px;
+    width: 1px;
+    border-left-style: dashed;
+    /*eliminates 1px region where events won't work, but bug remains in ie*/
+    pointer-events: none;
+    z-index: 520500; /*EDITOR-3857*/
+    position: absolute;
+    display: block;
+}
+
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-0,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-1,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-2,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-3,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-4,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-5,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-1 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-1,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-2,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-3,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-4,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-5,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-2 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-2,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-3,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-4,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-5,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-3 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-3,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-4,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-5,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-4 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-4,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-5,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-5 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-6 .gliffy-overlay-control-lane.lane-5,
+#gliffy-overlay.lanes.lane-6 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-6 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-6 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-6 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-6 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-7 .gliffy-overlay-control-lane.lane-6,
+#gliffy-overlay.lanes.lane-7 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-7 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-7 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-7 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-8 .gliffy-overlay-control-lane.lane-7,
+#gliffy-overlay.lanes.lane-8 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-8 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-8 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-9 .gliffy-overlay-control-lane.lane-8,
+#gliffy-overlay.lanes.lane-9 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-9 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-10 .gliffy-overlay-control-lane.lane-9,
+#gliffy-overlay.lanes.lane-10 .gliffy-overlay-control-lane.lane-10,
+#gliffy-overlay.lanes.lane-11 .gliffy-overlay-control-lane.lane-10 {
+    display: none;
+}
+
+#gliffy-overlay .gliffy-overlay-control-lane,
+#gliffy-overlay .gliffy-overlay-control,
+#gliffy-overlay .gliffy-overlay-rotate,
+#gliffy-overlay .gliffy-overlay-rotate-handle {
+    display: none;
+}
+
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control.gliffy-cursor-n-resize,
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control.gliffy-cursor-nw-resize,
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control.gliffy-cursor-ne-resize,
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control.gliffy-cursor-sw-resize,
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control.gliffy-cursor-s-resize,
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control.gliffy-cursor-se-resize,
+#gliffy-overlay.resize.height-constraint .gliffy-overlay-control-center {
+    display: none;
+}
+
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control.gliffy-cursor-w-resize,
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control.gliffy-cursor-nw-resize,
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control.gliffy-cursor-ne-resize,
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control.gliffy-cursor-sw-resize,
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control.gliffy-cursor-e-resize,
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control.gliffy-cursor-se-resize,
+#gliffy-overlay.resize.width-constraint .gliffy-overlay-control-center {
+    display: none;
+}
+
+.gliffy-overlay-control.gliffy-overlay-control-center {
+    /*background-image: url("../images/icon/icn_handle_circle.png");*/
+    position: absolute;
+}
+
+#gliffy-overlay.lanes .gliffy-overlay-control.gliffy-overlay-control-center {
+    display: none;
+}
+
+#gliffy-line-overlay {
+    display: none;
+}
+
+.gliffy-line-overlay-highlight {
+    position: absolute;
+    padding: 0px;
+    z-index: 520500; /*EDITOR-3857*/
+}
+
+.gliffy-line-overlay-highlight.hidden {
+    display: none;
+}
+
+.gliffy-line-overlay-control {
+    position: absolute;
+    padding: 0px;
+    width: 12px;
+    height: 12px;
+    z-index: 520600; /*EDITOR-3857*/
+}
+
+.gliffy-line-overlay-control.hidden {
+    display: none;
+}
+
+.gliffy-line-overlay-adjustment {
+    position: absolute;
+    padding: 0px;
+    width: 12px;
+    height: 12px;
+    z-index: 520600; /*EDITOR-3857*/
+}
+
+.gliffy-line-overlay-text-adjustment {
+    position: absolute;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #33CCFF;
+    background-color: rgba(255, 255, 255, 0.0); /*ie hack to make inner area selectable*/
+    z-index: 520500; /*EDITOR-3857*/
+    cursor: move
+}
+
+.gliffy-line-overlay-text-adjustment:hover {
+    border: 2px solid #00B421;
+}
+
+.gliffy-cardinality-placeholder {
+    position: absolute;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    border: 2px dotted #FFD6D6;
+    color: #FFE5E5;
+    background-color: rgba(255, 255, 255, 0.0); /*ie hack to make inner area selectable*/
+    z-index: 520500; /*EDITOR-3857*/
+    color: #FFD6D6;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gliffy-cardinality-placeholder:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.0); /*ie hack to make inner area selectable*/
+}
+
+/*probably need their own css.  being lazy and putting these in overlay for now.*/
+.gliffy-connection-point {
+    position: absolute;
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    z-index: 520200; /*EDITOR-3857*/
+}
+
+.gliffy-connection-vector {
+    display: none;
+    background-color: red;
+    position: absolute;
+    padding: 0px;
+    width: 5px;
+    height: 5px;
+    z-index: 520300; /*EDITOR-3857*/
+}
+
+#controls {
+    font-size: 12pt;
+}
+
+.gliffy-selector {
+    padding: 0px;
+    border: 1px solid blue;
+    border-style: dashed;
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    left: -5000px;
+    top: -5000px;
+    position: absolute;
+    z-index: 520000; /*EDITOR-3857*/
+}
+
+.gliffy-zoom-box {
+    padding: 0px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 100, 0.1);
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    z-index: 520000; /*EDITOR-3857*/
+}
+
+.gliffy-text-selector {
+    padding: 0px;
+    border: 1px solid blue;
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    left: -5000px;
+    top: -5000px;
+    position: absolute;
+    z-index: 520000; /*EDITOR-3857*/
+}
+
+.gliffy-overlay-text-adjustment {
+    position: absolute;
+    border: 2px solid #25BFFF;
+    z-index: 520000; /*EDITOR-3857*/
+    word-wrap: break-word;
+    line-height: 0px;
+    white-space: normal;
+    display: none;
+}
+
+.gliffy-overlay-text-adjustment.active {
+    display: block;
+}
+
+.gliffy-overlay-text-adjustment.active:hover {
+    border: 2px solid #09AC0A;
+}
+
+.gliffy-overlay-text-adjustment.active.dragging {
+    border: 2px solid #09AC0A;
+}
+
+.gliffy-overlay-text-adjustment.active.dropped {
+    border: 2px solid #057F08;
+}
+
+.gliffy-overlay-text-position-anchor {
+    border: 2px solid #C2E1C1;
+    z-index: 519900; /*EDITOR-3857*/
+    position: absolute;
+    display: none;
+}
+
+.gliffy-overlay-text-position-anchor.active {
+    display: block;
+}
+
+.gliffy-overlay-text-adjustment-transparent-outline {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: transparent;
+    border: none;
+}
+
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-outline{
+    border: 1px solid $disabled-outline;
+}
+
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-control {
+    background-color: $disabled-outline;
+    background-image: none;
+}
+
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-outline,
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-control {
+    cursor: not-allowed;
+}
+
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-control.gliffy-overlay-control-center,
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-rotate,
+#gliffy-overlay.gliffy-overlay-lock .gliffy-overlay-rotate-handle {
+    display: none;
+}
+
+.gliffy-drawing-guide {
+    position: absolute;
+    background-color: green;
+    z-index : 10000;
+}
+
+.gliffy-drawing-guide-vertical {
+    width: 1px;
+    height: 100%;
+}
+
+.gliffy-drawing-guide-horizontal {
+    width: 100%;
+    height: 1px;
+}

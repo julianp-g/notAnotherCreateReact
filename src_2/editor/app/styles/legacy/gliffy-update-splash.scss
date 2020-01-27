@@ -1,0 +1,98 @@
+/* Update Splash Screen
+---------------------------------------------------------*/
+#gliffy-modal-update-splash.gliffy-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 590000; /*EDITOR-3857*/
+    overflow: hidden;
+    width: 780px;
+    margin: -250px 0 0 -390px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+
+.gliffy-update-splash .gliffy-icon-update-splash-new {
+    position: absolute;
+    margin-left: 668px;
+    float: right;
+    clear: both;
+    z-index: 5; /*EDITOR-3857*/
+}
+
+@font-face {
+    font-family: 'NovecentowideBookBold';
+    src: url('../@gliffy/diagram-core-editor/assets/images/font/Novecentowide-Bold-webfont.eot');
+    src: url('../@gliffy/diagram-core-editor/assets/images/font/Novecentowide-Bold-webfont.eot') format('embedded-opentype'), url('../@gliffy/diagram-core-editor/assets/images/font/Novecentowide-Bold-webfont.woff') format('woff'), url('../@gliffy/diagram-core-editor/assets/images/font/Novecentowide-Bold-webfont.ttf') format('truetype'), url('../@gliffy/diagram-core-editor/assets/images/font/Novecentowide-Bold-webfont.svg#NovecentowideBookBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gliffy-update-splash .gliffy-update-splash-title {
+    font-family: "NovecentowideBookBold";
+    font-size: 28px;
+    line-height: 53px;
+}
+
+.gliffy-update-splash .gliffy-icon-update-splash-circle {
+    float: left;
+    margin: 10px;
+}
+
+#gliffy-update-splash-nomore-label {
+    display: inline;
+    color: #888;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.gliffy-update-splash .gliffy-update-splash-label {
+    text-align: right;
+    vertical-align: top;
+    padding: 6px;
+    width: 33%
+}
+
+.gliffy-update-splash .gliffy-update-splash-input-subject {
+    width: 400px;
+}
+
+.gliffy-update-splash textarea {
+    width: 400px;
+    height: 160px;
+}
+
+.gliffy-update-splash ul {
+    list-style-image: url('../../../@gliffy/diagram-core-editor/assets/images/gif/update-splash-check.png');
+}
+
+.gliffy-update-splash li {
+    margin-left: 10px;
+}
+
+/*.gliffy-update-splash ul li {*/
+/*background-position:0px -517px;*/
+/*width:23px;*/
+/*height:22px;*/
+/*}*/
+
+.gliffy-update-splash-product-info {
+    height: 200px;
+    overflow: auto;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+}

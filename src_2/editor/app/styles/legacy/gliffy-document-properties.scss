@@ -1,0 +1,153 @@
+#gliffy-document-properties-dialog {
+    background: #fff;
+    display: none;
+    z-index: 535700; /*EDITOR-3857*/
+}
+
+#gliffy-document-properties-dialog .jqmdBC {
+    height: 100%;
+    padding-bottom: 7px;
+}
+
+.gliffy-document-properties-dragarea {
+    cursor: move;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: 0;
+    width: 320px;
+}
+
+.gliffy-document-properties-dialog-class {
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    margin-left: -200px;
+    width: 350px;
+    /*overflow: hidden;*/
+    font-family: verdana, tahoma, helvetica;
+}
+
+/* Document Properties Dialog
+---------------------------------------------------------*/
+#gliffy-document-properties-content input {
+    padding: 4px 2px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    border: 1px solid $grey-border;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#gliffy-document-properties-content input.numbers {
+    width: 35px;
+    height: 20px;
+}
+
+#gliffy-document-properties-content input.title {
+    width: 278px;
+    height: 15px;
+}
+
+.gliffy-dialog-row {
+    border-top: 1px solid #ddd;
+    padding: 5px 10px;
+    clear: both;
+}
+
+.gliffy-document-properties-title-text {
+    max-width: 290px;
+    word-wrap: break-word;
+}
+
+.gliffy-dialog-prop {
+    padding-right: 28px;
+    padding-top: 6px;
+    float: left;
+}
+
+#gliffy-document-properties-pagecolor-button {
+    margin-top: 2px;
+    margin-bottom: 5px;
+
+    height: 28px;
+}
+
+#gliffy-document-properties-pagecolor-button {
+    padding: 4px 6px;
+    border-radius: 0;
+    border:none;
+    cursor: pointer;
+}
+
+#gliffy-document-properties-pagecolor-button:hover{
+    background: $cp-btn-hover;
+}
+
+#gliffy-document-properties-pagecolor-button.active{
+    background: $cp-btn-active;
+}
+
+#gliffy-document-properties-pagecolor-button  span.icon {
+    background: url("../@gliffy/diagram-core-editor/sprites/icon/properties/properties-shapecolor.png");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gliffy-document-properties-pagecolor-button .caret {
+    margin-left: 3px;
+}
+
+#gliffy-document-properties-content span.icon.w {
+    background-image: url(../@gliffy/diagram-core-editor/sprites/gen/icon.png);
+    background-position: -512px -236px;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gliffy-document-properties-content span.icon.h {
+    background-image: url(../@gliffy/diagram-core-editor/sprites/gen/icon.png);
+    background-position: -312px -450px;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gliffy-document-properties-dialog label {
+    display: inline;
+}
+
+#gliffy-document-properties-dialog .checkbox {
+    padding-left: 10px;
+}
+
+#gliffy-document-properties-dialog ul.dialog-list {
+    margin-left: 5px;
+}
+
+#gliffy-document-properties-dialog ul.dialog-list li {
+    list-style: none;
+}
+
+#gliffy-document-properties-loadposition, #gliffy-document-properties-imagefit {
+    padding-top: 7px;
+}
+
+#gliffy-document-properties-loadposition label, #gliffy-document-properties-imagefit label {
+    display: inline;
+    vertical-align: top;
+}
+
+#gliffy-document-properties-loadposition > div, #gliffy-document-properties-imagefit > div {
+    display: inline-block;
+    margin-top: -4px;
+}

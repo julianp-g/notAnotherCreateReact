@@ -1,0 +1,15 @@
+.atlwdg-blanket {
+    position: absolute;
+    filter: "alpha(opacity = 50)";
+    width: 110%;
+}
+
+.atlwdg-popup {
+    position: absolute;
+}
+
+.atlwdg-trigger.atlwdg-RIGHT {
+    left: auto;
+    right: 0;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 1);
+}

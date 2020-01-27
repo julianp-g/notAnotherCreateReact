@@ -1,0 +1,36 @@
+//global colors
+// should be the same as style-reskin/colors
+$gliffy-blue: #1787fb;
+$gliffy-blue-dark: #0067fb;
+$font: #4d4d4d;
+$white: #fff;
+$error-red: #b94a48;
+$button-font: $gliffy-blue;
+$button-border: $gliffy-blue;
+$button-hover: $gliffy-blue-dark;
+$grey-button-hover: #e8e8e8;
+$grey-border: #e6e6e6;
+$grey-bg:#f7f7f7;
+
+
+
+// shapeLibrary.scss & shapeLibraryImagePanel.scss & __gliffy-icon.scss
+$shape-library-search-bg: $grey-bg;
+$shape-library-font: $font;
+$shape-library-bg: $grey-bg;
+$shape-library-border: $grey-border;
+$shape-library-icon: $font;
+$shape-library-hover: #f2f2f2;
+$shape-library-font: $font;
+
+
+//gliffy-contextual-properties.scss
+//gliffy-colorswatchpicker.scss
+$cp-border: $grey-border;
+$cp-font: $font;
+$cp-btn-hover: $grey-button-hover;
+$cp-btn-disabled: transparent;
+$cp-btn-active: $grey-button-hover;
+$cp-bg: #fff;
+$cp-black-btn:  #333333;
+$cp-black-btn-hover: #444;

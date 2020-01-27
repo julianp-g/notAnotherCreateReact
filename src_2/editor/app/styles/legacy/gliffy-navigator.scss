@@ -1,0 +1,83 @@
+#gliffy-navigator-dialog {
+    width: 162px;
+    z-index: 540100; /*EDITOR-3857*/
+    position: fixed;
+    display: none;
+}
+
+#gliffy-navigator-dialog .jqmdX.jqmClose {
+    margin-right: 5px;
+}
+
+.gliffy-page-navigator-dragarea {
+    cursor: move;
+}
+
+.gliffy-navigator-container {
+    background: #fff;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #333;
+    height: 158px;
+}
+
+.gliffy-navigator-outline {
+    border: 1px solid #C30;
+    height: 156px;
+
+}
+
+.gliffy-navigator-controls {
+    margin-top: 10px;
+}
+
+.gliffy-navigator-zoomOut {
+    float: left;
+    margin-right: 5px;
+}
+
+.gliffy-navigator-zoomIn {
+    float: left;
+    margin-left: 5px;
+}
+
+.gliffy-navigator-zoom-level-bar-bg {
+    float: left;
+    background: #ddd;
+    height: 8px;
+    width: 100px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* this is the darker grey that is used to indicate the zoom level  */
+.gliffy-navigator-zoom-level-bar {
+    float: left;
+    background: #777;
+    height: 8px;
+    width: 100px;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.gliffy-navigator-levelHandle {
+    background: url("../images/prototype/icn-levelHandle.png") top left no-repeat;
+    margin-top: -6px;
+    height: 20px;
+}
+
+#gliffy-navigator-zoom-slider {
+    float: left;
+    width: 100px;
+}

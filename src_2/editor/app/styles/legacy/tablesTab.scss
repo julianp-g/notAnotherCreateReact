@@ -1,0 +1,37 @@
+/* -------------------------------- table properties -------------------------------- */
+.gliffy-stage > .table-border {
+    background-color: #3BC4FF;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 535400;
+}
+.table-buttons-clr {
+    clear:both;
+}
+#gliffy-tables-contextual-menu-merge {
+    float: right;
+    height: 34px;
+    width: 58px;
+}
+.gliffy-icon-properties-table-merge-cells {
+    display: inline-block;
+}
+
+#gliffy-tables-tab-resize-button  #gliffy-tables-tab-cell-merge {
+    padding: 2px;
+}
+.table-buttons-div {
+    margin: 0 0 5px 0;
+}
+.table-contextual-btns span.icon {
+    display:inline-block;
+    vertical-align: middle;
+    width: 19px;
+    height: 20px;
+}
+.gliffy-table-contextual-instructions {
+    margin: 10px 0px;
+}
+.gliffy-table-contextual-instructions-bold {
+    font-weight: bold;
+}

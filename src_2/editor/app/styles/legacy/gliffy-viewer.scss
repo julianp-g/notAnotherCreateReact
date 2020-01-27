@@ -1,0 +1,91 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #FFF;
+}
+
+.gliffy-stage {
+    overflow: hidden;
+}
+
+.gliffy-rte-text, .gliffy-ruler-text{
+    margin:0 0;
+    padding:0 0;
+    border: 0 none;
+    line-height:normal;
+    color:black;
+    background-color:transparent;
+    text-align:center;
+}
+
+.gliffy-rte-text p, .gliffy-ruler-text p {
+    line-height: 0px;
+    white-space:normal;
+    word-wrap: break-word;
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 none;
+    font-size:12px;
+    font-family:Arial;
+}
+
+.gliffy-text-with-line-parent p{
+    white-space: nowrap;
+}
+
+/*---------begin linkColorFixes---------*/
+/* !!!!! - Search codebase for: linkColorFixes if any of this needs to be modified. They likely need to be kept in sync.*/
+
+.gliffy-stage .gliffy-rte-text *[style*=color] a{ /*if we have a parent selector that has a color we want to inherit that color for the link*/
+
+    color: inherit;
+    text-decoration: underline;
+}
+
+/*otherwise we want to fix the color to blue*/
+.gliffy-stage .gliffy-rte-text p a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.gliffy-stage .gliffy-rte-text p a span {
+    /*this !important is actually required.
+    We need to override the text-decoration property that tinyMCE shoves into the span*/
+    text-decoration: underline !important;
+}
+/*---------end linkColorFixes---------*/
+
+.gliffy-viewer-target {
+    position: absolute;
+    overflow: hidden;
+}
+
+.gliffy-grab,
+.gliffy-grab .gliffy-viewer-target {
+    cursor: url("../images/cursors/icn_cursor_hand.cur"), auto;
+}
+
+.gliffy-grabbing,
+.gliffy-grabbing .gliffy-viewer-target {
+    cursor: url("../images/cursors/icn_cursor_hand_closed.cur"), auto;
+}
+
+/*body tag makes this rule override cursor*/
+body .gliffy-clickable,
+body .gliffy-clickable .gliffy-viewer-target {
+    cursor: pointer
+}
+
+.gliffy-grab span,
+.gliffy-grab .gliffy-viewer-target span,
+.gliffy-grabbing span,
+.gliffy-grabbing .gliffy-viewer-target span {
+    cursor : auto;
+}
+.gliffy-grab span a,
+.gliffy-grab .gliffy-viewer-target span a,
+.gliffy-grabbing span a,
+.gliffy-grabbing .gliffy-viewer-target span a {
+    cursor : pointer;
+}
+

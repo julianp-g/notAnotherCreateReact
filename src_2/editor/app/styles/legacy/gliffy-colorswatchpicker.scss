@@ -1,0 +1,85 @@
+.gliffy-colorswatchpicker {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 535900; /*EDITOR-3857*/
+    display: none;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* SWATCH PICKER
+------------------------------------*/
+
+.gliffy-colorswatchpicker .gliffy-swatch-container {
+    overflow: hidden;
+    width: 183px;
+    height: 220px;
+    background-color: $cp-bg;
+    border: 1px solid $cp-border;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    box-sizing: content-box;
+}
+
+.gliffy-colorswatchpicker .swatch {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: 1px solid $cp-border;
+}
+
+.gliffy-colorswatchpicker .gliffy-swatch-row,
+.gliffy-colorswatchpicker .gliffy-custom-swatches,
+.gliffy-colorswatchpicker .gliffy-primary-swatches {
+    overflow: hidden;
+    width: 100%;
+    max-width: 180px;
+}
+
+.gliffy-colorswatchpicker .gliffy-custom-swatches {
+    padding-bottom: 10px;
+}
+
+.gliffy-colorswatchpicker .gliffy-primary-swatches {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.gliffy-colorswatchpicker .gliffy-custom-swatches .swatch {
+    border: 1px solid $cp-border;
+}
+
+.gliffy-swatch-container .btn{
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid $gliffy-blue;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 26px;
+    line-height: 26px;
+    font: 13px 200;
+    padding: 0 10px;
+    color: $gliffy-blue;
+}
+.gliffy-colorswatchpicker .selected {
+    border: 1px solid #000;
+}
+
+.gliffy-colorswatchpicker .swatch:hover {
+    border: 1px solid #000;
+}
+
+.gliffy-colorswatchpicker .nohover:hover {
+    border: 1px solid #ddd;
+}
+

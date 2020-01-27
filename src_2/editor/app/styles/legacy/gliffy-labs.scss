@@ -1,0 +1,132 @@
+
+#gliffy-labs.gliffy-popup .gliffy-modal{
+    top: 40px;
+    left: 244px;
+    margin: 0;
+    color: #4d4d4d;
+    max-width: 330px;
+}
+
+.gliffy-labs .gliffy-close{
+
+}
+.labs-view{
+    display: none;
+}
+
+.try .labs-try,
+.enabled .labs-enabled,
+.disabled .labs-disabled,
+.save .labs-save-warning
+{
+    display: block;
+}
+
+.labs-title{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.labs-emoji{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.labs-subtitle{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.labs-text{
+    padding-bottom: 10px;
+}
+
+.labs-disabled-email{
+
+}
+
+.labs-disabled-textarea{
+
+}
+
+.labs-right{
+    float: right;
+
+    .labs-disabled-send-btn{
+        margin-left: 5px;
+    }
+}
+
+//toggle
+.gliffy-labs{
+
+    .labs-toggle{
+        display: inline-block;
+        position: relative;
+    }
+    .labs-toggle-label{
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        color: #4d4d4d;
+        font-weight: normal;
+        line-height: 28px;
+        text-shadow: none;
+    }
+
+    .labs-toggle-off{
+        left:-25px;
+    }
+
+    .labs-toggle-on{
+        right:-21px;
+        color:#b3b3b3;
+    }
+
+    .toggle {
+        opacity: 0;
+    }
+
+    .label {
+        margin-right: 20px;
+        font-size: 30px;
+        padding:0;
+        display: inline-block;
+        width: 1.7em;
+        height: 1em;
+        border-radius: 0.5em;
+        position: relative;
+        cursor: pointer;
+        background: #e6e6e6;
+    }
+    .switch {
+        position: absolute;
+        width: 0.9em;
+        height: 0.9em;
+        margin-top: 0.05em;
+        margin-left: 0.05em;
+        border-radius: 1em;
+        background: #fff;
+        box-shadow: 5px 0px 28px -9px rgba(0, 0, 0, 0.75);
+        transition: transform .2s ease-in;
+    }
+
+    .labs-toggle.checked .label {
+        background: #1787fb;
+
+        .labs-toggle-off{
+            color:#b3b3b3;
+        }
+
+        .labs-toggle-on{
+            color:#4d4d4d;
+        }
+    }
+    .labs-toggle.checked .label .switch {
+        background: #fff;
+        transform: translatex(0.7em);
+        transition: transform .2s ease-in;
+    }
+}

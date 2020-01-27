@@ -1,0 +1,17 @@
+#gliffy-network-rack-overlay {
+    /*border:1px solid #FF0000;*/
+}
+#gliffy-network-rack-overlay, .gliffy-network-rack-overlay-outline, .gliffy-network-rack-resize-y-overlay, .gliffy-network-rack-resize-overlay-control {
+    position:absolute;
+}
+.gliffy-network-rack-resize-y-overlay {
+}
+
+.gliffy-network-rack-resize-overlay-control-y {
+    position: absolute;
+    padding: 0px;
+    width: 100%;
+    height: 4px;
+    z-index: 535500; /*EDITOR-3857*/
+    display: block;
+}

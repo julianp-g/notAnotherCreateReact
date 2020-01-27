@@ -1,0 +1,1 @@
+Directory is for gliffy additions to TinyMCE.
