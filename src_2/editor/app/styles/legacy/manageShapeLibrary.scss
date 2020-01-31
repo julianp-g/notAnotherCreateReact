@@ -1,5 +1,7 @@
-#manageLibrary, #requestLibrary, #requestLibrarySend {
-    width : 800px;
+#manageLibrary,
+#requestLibrary,
+#requestLibrarySend {
+    width: 800px;
     margin: -270px 0 0 -400px;
 }
 
@@ -18,7 +20,7 @@
 #requestLibrary .modal-body,
 #requestLibrary .modal-body .row-fluid,
 #requestLibrarySend .modal-body,
-#requestLibrarySend .modal-body .row-fluid{
+#requestLibrarySend .modal-body .row-fluid {
     background: #FFFFFF;
     padding: 0;
     overflow: hidden;
@@ -26,7 +28,7 @@
 
 #manageLibrary .gliffy-custom-shape-preview,
 #requestLibrary .gliffy-custom-shape-preview {
-    float:left;
+    float: left;
     margin: 5px 12px;
 }
 
@@ -48,14 +50,14 @@
 
 #manageLibrary .modal-body h4,
 #requestLibrary .modal-body h4,
-#requestLibrarySend .modal-body h4{
+#requestLibrarySend .modal-body h4 {
     font-size: 13px;
     margin-bottom: 5px;
 }
 
-#requestLibrarySend .modal-body p{
-    margin-left:0;
-    margin-right:0;
+#requestLibrarySend .modal-body p {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #manageLibrary .gliffy-add-library-container,
@@ -77,40 +79,40 @@
 
 #manageLibrary .modal-body form,
 #requestLibrary .modal-body form {
-    margin-top : 10px;
+    margin-top: 10px;
 }
 
 #manageLibrary .modal-body form,
 #requestLibrary .modal-body form,
 #requestLibrarySend .modal-body form,
-#requestLibrarySend p{
-    margin-left : 10px;
+#requestLibrarySend p {
+    margin-left: 10px;
 }
 
 #manageLibrary .modal-body h4,
 #requestLibrary .modal-body h4,
 #requestLibrarySend .modal-body h4 {
-    margin-left:20px;
+    margin-left: 20px;
 }
 
-#requestLibrarySend .gliffy-spinner{
+#requestLibrarySend .gliffy-spinner {
     width: 90px;
     height: 60px;
-    background: url('../../../images/gif/spinner_white.gif') no-repeat center center;
+    background: url('../../../styles_2/public/assets/images/gif/spinner_white.gif') no-repeat center center;
 }
 
 #manageLibrary .modal-body ul,
 #requestLibrary .modal-body ul {
-    margin-left : 18px;
+    margin-left: 18px;
     margin-bottom: 0;
 }
 
 #manageLibrary .gliffy-library-list-container,
 #requestLibrary .gliffy-library-list-container,
-#requestLibrarySend .gliffy-library-list-container{
+#requestLibrarySend .gliffy-library-list-container {
     position: relative;
     overflow-y: scroll;
-    height:400px;
+    height: 400px;
 }
 
 #manageLibrary #gliffyLibraryPreview,
@@ -125,7 +127,7 @@
 
 #manageLibrary .gliffy-selected-background,
 #requestLibrary .gliffy-selected-background {
-    background : rgb(228,234,242);
+    background: rgb(228, 234, 242);
     position: absolute;
     left: 0;
     width: 370px;
@@ -148,6 +150,7 @@
 #manageLibrary .checkbox input {
     margin-top: -14px;
 }
+
 #requestLibrary .checkbox input {
     margin-top: 0px;
 }
@@ -159,7 +162,7 @@
 
 #manageLibrary .gliffy-twizzle li,
 #requestLibrary .gliffy-twizzle li {
-    position : relative;
+    position: relative;
     line-height: 13px;
 }
 
@@ -167,36 +170,35 @@
 #manageLibrary .gliffy-twizzle .icon-chevron-right,
 #requestLibrary .gliffy-twizzle .icon-chevron-down,
 #requestLibrary .gliffy-twizzle .icon-chevron-right {
-    margin-left : -20px;
+    margin-left: -20px;
     position: absolute;
 }
 
 #manageLibrary .gliffy-library-owner,
 #requestLibrary .gliffy-library-owner {
     font-weight: bold;
-    color: rgb(38,38,38);
-
+    color: rgb(38, 38, 38);
 }
 
 #manageLibrary .gliffy-custom-shape-information,
 #requestLibrary .gliffy-custom-shape-information {
-    padding:10px;
-    color: rgb(148,148,148);
+    padding: 10px;
+    color: rgb(148, 148, 148);
 }
 
 #manageLibrary .gliffy-custom-shape-information .gliffy-library-editable,
 #requestLibrary .gliffy-custom-shape-information .gliffy-library-editable {
     float: right;
     margin-right: 10px;
-    color: rgb(148,148,148);
+    color: rgb(148, 148, 148);
 }
 
 #manageLibrary .gliffy-icon-library-star-orange,
 #manageLibrary .gliffy-icon-library-star-grey,
 #requestLibrary .gliffy-icon-library-star-orange,
-#requestLibrary .gliffy-icon-library-star-grey{
+#requestLibrary .gliffy-icon-library-star-grey {
     display: inline-block;
-    vertical-align:  middle;
+    vertical-align: middle;
 }
 
 #manageLibrary .gliffy-shape-preview-container,
@@ -206,21 +208,21 @@
 
 #manageLibrary .gliffy-shape-preview-container h4,
 #requestLibrary .gliffy-shape-preview-container h4 {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 div.gliffy-panel-sub-group {
-    padding-left:20px;
+    padding-left: 20px;
     display: none;
 }
 
 .gliffy-libraries-left {
-    float:left;
-    width:32%;
+    float: left;
+    width: 32%;
 }
 
 .gliffy-libraries-right {
-    float:right;
+    float: right;
 }
 
 .gliffy-sidebar-btns .gliffy-more-shapes-panel .moreShapes {
@@ -238,28 +240,27 @@ div.gliffy-panel-sub-group {
     margin-bottom: 0px;
 }
 
-
 #manageLibrary .gliffy-icon-library-intro-custom-shapes,
 #requestLibrary .gliffy-icon-library-intro-custom-shapes {
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 #manageLibrary .gliffy-icon-library-gliffy-bot-beer,
 #requestLibrary .gliffy-icon-library-gliffy-bot-beer {
     margin-left: auto;
     margin-right: auto;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 #manageLibrary .gliffy-bold,
 #requestLibrary .gliffy-bold {
-    font-weight:bold;
+    font-weight: bold;
     color: #333333;
 }
 
 #manageLibrary .gliffy-light,
 #requestLibrary .gliffy-light {
-    color: rgb(121,121,121);
+    color: rgb(121, 121, 121);
 }
 
 #manageLibrary .gliffy-title,
